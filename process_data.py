@@ -32,7 +32,7 @@ LANG_MAP = {
 }
 
 def download_data():
-    gc = gspread.service_account(filename='runningimages.key.json')
+    gc = gspread.service_account(filename='secrets/runningimages.key.json')
     sh = gc.open("Running Images")
     return pd.DataFrame(sh.sheet1.get_all_records())
 
