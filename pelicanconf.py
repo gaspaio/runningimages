@@ -32,3 +32,13 @@ DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Paths
+ARCHIVES_SAVE_AS = ''
+ARTICLE_PATHS = ['videos']
+ARTICLE_EXCLUDES: []
+ARTICLE_SAVE_AS = 'video/{slug}.html'
+AUTHOR_SAVE_AS = ''
+TAG_SAVE_AS = 'entity/{slug}.html'
+TAGS_SAVE_AS = 'entities.html'
+

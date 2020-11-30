@@ -4,8 +4,14 @@ import gspread
 from leven import levenshtein
 import datetime as dt
 import pycountry
+import textwrap
+import re
+import shutil
+import os
 
 TAG_MIN_COUNT = 2
+
+SUMMARY_LENGTH = 150
 
 NAME_MAPS = {
     'events': {
@@ -30,6 +36,8 @@ LANG_MAP = {
     'en': 'English',
     'gr': 'Greek'
 }
+
+IMG_FORMATS = ['jpg']
 
 def download_data():
     gc = gspread.service_account(filename='secrets/runningimages.key.json')
@@ -119,10 +127,19 @@ def clean_data(orig_data):
         return LANG_MAP[lang]
     data['language'] = data.apply(lambda row: parse_lang(row.id, row.language), axis=1)
 
+    # validate and clean slug.
+    # regex: [a-z0-9\_]+
+    # create 1 field: web_slug (convert _ to -]
+    def build_web_slug(idx, slug):
+        if re.match(r'^[0-9a-z\_]+$', slug) is None:
+            raise RuntimeError(f'Invalid slug in col id == {idx} ({slug})')
+        return slug.replace('_', '-')
+    data['slug_web'] = data.apply(lambda row: build_web_slug(row.id, row.slug), axis=1)
+
     return data
 
 
-def item_table(data, colname, namemap=None):
+def item_table(data, colname):
     items = pd.DataFrame(data[colname].dropna().explode().str.strip().value_counts())
     items.columns = ['counts']
     items['is_tag'] = items.counts.apply(lambda c: c >= TAG_MIN_COUNT)
@@ -150,7 +167,7 @@ def set_category(year):
 
 def extract_keywords(data, similarity_threshold=3):
     out = {
-        'events': item_table(data, 'events', EVENTS_NAME_MAP),
+        'events': item_table(data, 'events'),
         'people': item_table(data, 'people'),
         'sponsors': item_table(data, 'sponsors'),
         'production': item_table(data, 'production'),
@@ -169,6 +186,11 @@ def extract_keywords(data, similarity_threshold=3):
     for k, df in out.items():
         out_final[k] = df.to_dict('index')
 
+    # Ensure we have no conflicting keywords
+    # all_k = [name for vals in out_final.values() for name, info in vals.items() if info['is_tag']]
+
+
+
     return out_final
 
 
@@ -179,7 +201,8 @@ def create_articles(data, tag_sources):
         item = {
             'id': row.id,
             'title': row.title,
-            'slug': row.slug,
+            'slug_web': row.slug_web,
+            'slug_fs': row.slug,
             'created': row.created,
             'release_year': row.release_year,
             'category': set_category(row.release_year),
@@ -191,12 +214,13 @@ def create_articles(data, tag_sources):
             'people': row.people,
             'events': row.events,
             'description': row.description,
+            'summary': textwrap.shorten(row.description, width=SUMMARY_LENGTH, placeholder="..."),
             'free_access': row.free_access,
             'language': row.language,
             'country': row. country
         }
 
-        item['author'] = item['direction']
+        item['authors'] = item['direction']
 
         # build tags
         item['tags'] = []
@@ -216,4 +240,72 @@ def generate_site_data():
     keywords = extract_keywords(data)
     videos = create_articles(data, keywords)
 
-    return videos, tag_sources
+    return videos, keywords
+
+
+def generate_video_images(videos, keywords):
+    medias = {}
+    for video in videos:
+        # Support multiple file formats
+        path = None
+        for img_format in IMG_FORMATS:
+            path = f'images/{video["slug_fs"]}.{img_format}'
+            if os.path.isfile(f'content/{path}'):
+                break
+            path = None
+
+        if path is not None:
+            medias[video['slug_fs']] = {
+                'main_img': path
+            }
+    return medias
+
+
+def clean_content():
+    for item in os.listdir('content/videos'):
+        path = f'content/videos/{item}'
+        if os.path.isdir(path):
+            shutil.rmtree(path)
+        else:
+            os.remove(path)
+        print(f'Removed:    {path}')
+
+
+def to_video_page(video, medias):
+
+    non_empty_cols = ['id', 'slug', 'title', 'release_year', 'created', 'description', 'free_access']
+
+    out = f"""{video['title']}
+{'#'*len(video['title'])}
+
+:slug: {video['slug_web']}
+:date: {video['created'].strftime('%Y-%m-%d')}
+:tags: {';'.join(video['tags'])}
+:summary: {video['summary']}"""
+
+    if video['category'] is not np.NaN:
+        out += f'\n:category: {video["category"]}'
+
+    if video['authors'] is not np.NaN:
+        out += f'\n:authors: {";".join(video["authors"])}'
+
+    if medias is not None and 'main_img' in medias:
+        out += f'\n:medias_main_img: {medias["main_img"]}'
+
+    out += f'\n\n{video["description"]}\n'
+
+    return out
+
+def generate_site_content(videos, keywords):
+    clean_content()
+    medias = generate_video_images(videos, keywords)
+
+    for video in videos:
+        content = to_video_page(video, medias.get(video['slug_fs'], None))
+        filepath = f"content/videos/{video['category']}/{video['slug_fs']}.rst" if video['category'] is not np.NaN else f"content/videos/{video['slug_fs']}.rst"
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, 'w') as f:
+            f.write(content)
+        print(f'Wrote:   {filepath}')
+
+    return

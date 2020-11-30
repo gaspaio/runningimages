@@ -1,0 +1,12 @@
+52 peaks
+########
+
+:slug: 52-peaks
+:date: 2020-12-31
+:tags: 
+:summary: 52 Peaks is a beautiful and contemplative film completely directed, produced, edited, animated, and starring Matthew Dickinson. It follows him as...
+:category: 2010-2014
+:authors: Matthew Dickinson
+
+52 Peaks is a beautiful and contemplative film completely directed, produced, edited, animated, and starring Matthew Dickinson.  It follows him as he attempts to run 52 peaks in 52 weeks all across New Zealand.  The personal journey that the film shows him going on throughout is motivational and his progress in running towards the end is evident.
+The documentary is very introspective on running alone and tackling a challenge you set before yourself.  It is a great reminder that hard work and perseverance can pay off.  Shot with a single camera, Dickinson does a lot more running than required to bring us along.  But what an incredible journey we’re shown.
