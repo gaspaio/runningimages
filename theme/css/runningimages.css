@@ -1,0 +1,50 @@
+/* Navbar */
+a#main-site-name {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Main sections */
+main {
+    margin-bottom: 10em;
+}
+
+main section.section {
+    padding: 2em 1.5em;
+}
+
+/* Film item listings */
+
+/* Film page*/
+main section #infobox {
+    background-color: rgb(245, 245, 245);
+}
+
+/* Video page*/
+/* Scalling player to the viewport: https://coolestguidesontheplanet.com/videodrome/youtube/ */
+section#video-main-player {
+    padding-bottom: 0;
+}
+.video-container {
+	position:relative;
+	padding-bottom:53.90%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+*/
