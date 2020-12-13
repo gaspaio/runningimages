@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/runningimages.css" />
+
+        <!--
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        {% endif %}
+        {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+        {% block extra_head %}{% endblock extra_head %}
+        {% endblock head %}
+        -->
+</head>
+
+<body>
+    <nav id="navbar" class="bd-navbar navbar has-shadow is-spaced is-dark">
+      <div class="container">
+        <div class="navbar-brand">
+            <a id="main-site-name" class="navbar-item" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+        </div>
+        <div class="navbar-menu is-active">
+            <div class="navbar-end">
+                <a class="navbar-item{% if page_name == 'videos' %} active{% endif %}" href="{{ SITEURL }}/videos.html">All Videos</a>
+
+                {% set category_menu_items = ['2015-x', '2010-2014','2005-2009', '2000-2004', 'x-1999'] %}
+                <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link{% if page_name == 'years' %} active{% endif %}" href="{{ SITEURL }}/years.html">By Year</a>
+                    <div class="navbar-dropdown">
+                        {% for cat in category_menu_items %}
+                        <a href="{{ SITEURL }}/years/{{ cat }}.html" class="navbar-item{% if page_name == 'years/' + cat %} active{% endif %}">{{ cat }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <a class="navbar-item{% if page_name == 'tags' %} active{% endif %}" href="{{ SITEURL }}/tags.html">Tags</a>
+                <a class="navbar-item" href="{{ SITEURL }}/about.html">About this website | {{page_name}}</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="bd-main"><div class="bd-main-container container">
+        {% block content %}{% endblock %}
+    </div></main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Remarks via Github Issues.</p>
+        </div>
+    </footer>
+</body>
+</html>

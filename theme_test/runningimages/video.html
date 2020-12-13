@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Running Images | My cool video - !people in it!></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="runningimages.css">
+  </head>
+  <body>
+    <nav id="navbar" class="bd-navbar navbar has-shadow is-spaced is-dark">
+      <div class="container">
+        <div class="navbar-brand">
+            <a id="main-site-name" class="navbar-item" href="#">Running Images</a>
+        </div>
+        <div class="navbar-menu is-active">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">All Videos</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">By Year</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">2015-x</a>
+                        <a class="navbar-item">2010-2015</a>
+                        <a class="navbar-item">2005-2010</a>
+                        <a class="navbar-item">2000-2005</a>
+                        <a class="navbar-item">x-1999</a>
+                    </div>
+                </div>
+                <a class="navbar-item" href="#">Tags</a>
+                <a class="navbar-item" href="#">About this website</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+
+  <main class="bd-main">
+    <div class="bd-main-container container">
+      <section id="video-main-player" class="section">
+        <!--
+            * When free access AND stream link is available : put embed of full movie
+            * When free access AND not stream link : validation should remove this case
+            * When not free AND trailer : put trailer. Else, put main image or nothing
+            * When not free AND stream link : put link.
+        -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7_DCHl-gKAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- Daily motion embed
+            <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x3pifzf" width="100%" height="100%" allowfullscreen > </iframe> </div>
+        -->
+      </section>
+      <section class="section content">
+        <h1 class="title">Anton Kupricka, l’ovni de l’ultra trail</h1>
+        <div class="columns">
+            <div id="infobox" class="column is-one-third is-light">
+                <p><strong>Direction :</strong> Aurélien Delfosse</p>
+                <p><strong>Release year :</strong> 2018</p>
+                <p><strong>Duration :</strong> 25 min</p>
+                <p><strong>Production :</strong> <a href="#" title="See all produtions of L'Équipe">L'Équipe</a></p>
+                <p><strong>Country :</strong> France</p>
+                <p><strong>Language :</strong> French</p>
+                <p><strong>Events :</strong> <a href="#" title="See all content about UTMB">UTMB</a></p>
+                <p><strong>Starring :</strong> <a href="#" title="See all content staring Anton Krupicka">Anton Krupicka</a></p>
+            </div>
+            <div class="column">
+                <div class="block">
+                    <p>French TV short documentary on Anton Kupricka.</p>
+                </div>
+                <div class="block">
+                    <p><strong>Official Website :</strong> <a href="#">Show link if available</a></p>
+                    <p><strong>Video-On-Demand :</strong> <a href="#">Show stream link if not free</a></p>
+                </div>
+            </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>Remarks via Github Issues.</p>
+    </div>
+  </footer>
+  </body>
+</html>

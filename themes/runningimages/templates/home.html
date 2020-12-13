@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% block title %}{{ SITENAME }}{%endblock%}
+
+{% block content %}
+    <h1>Home Page template</h1>
+
+    {{ page.content }}
+{% endblock %}

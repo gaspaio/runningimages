@@ -37,8 +37,16 @@ DEFAULT_PAGINATION = 20
 ARCHIVES_SAVE_AS = ''
 ARTICLE_PATHS = ['videos']
 ARTICLE_EXCLUDES: []
-ARTICLE_SAVE_AS = 'video/{slug}.html'
+ARTICLE_SAVE_AS = 'videos/{slug}.html'
+ARTICLE_URL = 'videos/{slug}.html'
 AUTHOR_SAVE_AS = ''
-TAG_SAVE_AS = 'entity/{slug}.html'
-TAGS_SAVE_AS = 'entities.html'
+TAG_SAVE_AS = 'tags/{slug}.html'
+TAGS_SAVE_AS = 'tags.html'
+TAG_URL = 'tags/{slug}.html'
+CATEGORY_SAVE_AS = 'years/{slug}.html'
+CATEGORIES_SAVE_AS = 'years.html'
+CATEGORY_URL = 'years/{slug}.html'
+INDEX_SAVE_AS = 'videos.html'
+
+THEME = 'themes/runningimages'
 
