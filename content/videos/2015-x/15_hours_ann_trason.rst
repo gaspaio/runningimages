@@ -3,10 +3,19 @@
 
 :slug: 15-hours-ann-trason
 :date: 2020-12-31
-:tags: Western States 100;Ann Trason;Billy Yang Films;Billy Yang
 :summary: Arguably the greatest American ultrarunner of all time, Ann Trason won an unprecedented 14 times at the Western States 100 Mile Endurance Run while...
-:category: 2015-x
-:authors: Billy Yang
+:release_year: 2015
+:duration: 6min 43s
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: ZszWslBd6qA
+:player_url: https://www.youtube.com/watch?v=ZszWslBd6qA
+:events: Western States 100
+:people: Ann Trason
+:production: Billy Yang Films
+:direction: Billy Yang
+:tags: Western States 100;Ann Trason;Billy Yang Films;Billy Yang
 
 Arguably the greatest American ultrarunner of all time, Ann Trason won an unprecedented 14 times at the Western States 100 Mile Endurance Run while winning and setting course records at many other ultra races. But instead of embracing her incredible feats,  particularly in the 80-90's, a naturally introverted and modest Ann prefers to discuss the joy she feels on the trails and "competing with herself" versus those that toed the line with her.
 

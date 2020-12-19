@@ -1,67 +1,55 @@
 {% extends "base.html" %}
-{% block html_lang %}{{ article.lang }}{% endblock %}
 
-{% block title %}{{ SITENAME }} - {{ article.title|striptags  }}{% endblock %}
+{% block title %}
+{{ SITENAME }} - {{ article.title|striptags  }}{% if article.keywords %} - {{ article.keywords|striptags }}{% endif %}
+{% endblock %}
+
 
 {% block head %}
   {{ super() }}
-
-  {% import 'translations.html' as translations with context %}
-  {% if translations.entry_hreflang(article) %}
-    {{ translations.entry_hreflang(article) }}
-  {% endif %}
-
-  {% if article.description %}
-    <meta name="description" content="{{article.description}}" />
-  {% endif %}
-
+    <meta name="description" content="{{article.summary | striptags}}" />
   {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
+    <meta name="tags" content="{{tag | striptags}}" />
   {% endfor %}
-
 {% endblock %}
+
 
 {% block content %}
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
-    </time>
-    {% if article.modified %}
-    <time class="modified" datetime="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
-    </time>
-    {% endif %}
-    {% if article.authors %}
-    <address class="vcard author">
-      By {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
-    {% endif %}
-    {% if article.category %}
-    <div class="category">
-        Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+<section id="video-main-player" class="section">
+    {% if article.player_type == 'youtube' %}
+    <div class="video-container video-container-youtube">
+        <iframe src="https://www.youtube.com/embed/{{ article.player_vid }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    {% else %}
+    <div class="no-video-container">
+        <p>Vidéo player is not available. There should be an image here !</p>
     </div>
     {% endif %}
-    {% if article.tags %}
-    <div class="tags">
-        Tags:
-        {% for tag in article.tags %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
-        {% endfor %}
+</section>
+<section class="section content">
+    <h1 class="title">{{ article.title | striptags }}</h1>
+    <div class="columns">
+        <div id="infobox" class="column is-one-third is-light">
+            infobox data
+        </div>
+        <div class="column">
+            <div class="block">
+                <p>{{ article.content }}</p>
+            </div>
+
+            {% if article.link_official or article.link_vod %}
+            <div class="block">
+                {% if article.link_official %}
+                <p><strong>Official Website :</strong> <a href="{{ article.link_official }}">{{ article.link_official }}</a></p>
+                {% endif %}
+                {% if article.link_vod %}
+                <p><strong>Video-On-Demand :</strong> <a href="{{ article.link_vod }}">{{ article.link_vod }}</a></p>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+
     </div>
-    {% endif %}
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
 </section>
 {% endblock %}
+

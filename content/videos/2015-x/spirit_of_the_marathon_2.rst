@@ -3,10 +3,17 @@ Spirit of the Marathon II
 
 :slug: spirit-of-the-marathon-2
 :date: 2020-12-31
-:tags: Jon Dunham
 :summary: From the producers of the award-winning documentary Spirit of the Marathon, this highly-anticipated sequel follows seven runners from around the...
-:category: 2015-x
-:authors: Jon Dunham
+:release_year: 2016
+:duration: 1h 41min 12s
+:language: English
+:player_type: youtube
+:player_vid: lYDiAnNlHPQ
+:player_url: https://www.youtube.com/watch?v=lYDiAnNlHPQ
+:link_official: https://vimeo.com/ondemand/spiritofthemarthonii
+:production: FilmWorks Entertainment
+:direction: Jon Dunham
+:tags: Jon Dunham
 
 From the producers of the award-winning documentary Spirit of the Marathon, this highly-anticipated sequel follows seven runners from around the world as they journey to the starting line of the Rome Marathon.
 

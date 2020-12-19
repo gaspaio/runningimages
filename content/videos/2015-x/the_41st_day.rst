@@ -3,10 +3,17 @@ The 41st Day
 
 :slug: the-41st-day
 :date: 2020-12-31
-:tags: 
 :summary: Ryan Hall is the fastest marathon runner in American history. His consistency is only matched by legends of the sport. In order to go down as the...
-:category: 2015-x
-:authors: Tim Jeffries
+:release_year: 2019
+:duration: 1h 29min
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: 2wE4L4IlOFo
+:player_url: https://www.youtube.com/watch?v=2wE4L4IlOFo
+:link_official: https://ryanhallfilm.com/
+:people: Ryan Hall
+:direction: Tim Jeffries
 
 Ryan Hall is the fastest marathon runner in American history. His consistency is only matched by legends of the sport. In order to go down as the best, however, Ryan needs to do something that has eluded him his whole career - win an international marathon.
 

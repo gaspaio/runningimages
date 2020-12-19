@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/runningimages.css" />
 
-        <!--
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
         {% endif %}
@@ -37,7 +36,6 @@
         {% endif %}
         {% block extra_head %}{% endblock extra_head %}
         {% endblock head %}
-        -->
 </head>
 
 <body>

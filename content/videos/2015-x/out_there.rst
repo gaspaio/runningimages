@@ -3,10 +3,19 @@ Out There - A Journey to the Barkley Marathons
 
 :slug: out-there
 :date: 2020-12-31
-:tags: The Barkley Marathons
 :summary: The Barkley Marathons - one of the world's toughest ultramarathons, has been held annually in the Frozen Head State Park, Tennessee, since 1987....
-:category: 2015-x
-:authors: Fabien Duflos
+:release_year: 2020
+:duration: 53min 47s
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: Jt3XPQFLOF8
+:player_url: https://www.youtube.com/watch?v=Jt3XPQFLOF8
+:events: The Barkley Marathons
+:people: Karel Sabbe
+:production: Tangram Films;Karel Sabbe
+:direction: Fabien Duflos
+:tags: The Barkley Marathons
 
 The Barkley Marathons - one of the world's toughest ultramarathons, has been held annually in the Frozen Head State Park, Tennessee, since 1987.
 The race is so brutal that, since the inception of the race, only 15 people have managed to finish. Runners are to run five 20-mile loops, within a 60 hour time limit and with more than 20.000m of elevation change.

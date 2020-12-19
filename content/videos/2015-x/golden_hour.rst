@@ -3,10 +3,18 @@ Golden hour - The Best Hour in Ultrarunning
 
 :slug: golden-hour
 :date: 2020-12-31
-:tags: Western States 100
 :summary: The Western States 100-Mile Endurance Run is the world’s oldest 100-mile trail race. Starting in Olympic Valley, California it ends 100.2 miles...
-:category: 2015-x
-:authors: Austin Meyer
+:release_year: 2020
+:duration: 16min 39s
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: JUZG_XHUenY
+:player_url: https://www.youtube.com/watch?v=JUZG_XHUenY
+:events: Western States 100
+:production: Austin Meyer Films
+:direction: Austin Meyer
+:tags: Western States 100
 
 The Western States 100-Mile Endurance Run is the world’s oldest 100-mile trail race. Starting in Olympic Valley, California it ends 100.2 miles later in Auburn, California. Western States draws the top ultrarunners in the world, who can finish the race in under 15 hours. But perhaps the race’s most exhilarating finishes happen in double that time, as everyday people try to finish under the 30-hour time cutoff.
 

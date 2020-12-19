@@ -7,9 +7,11 @@ import re
 import os
 import numpy as np
 import datetime as dt
-import textwrap
 
 from . import *
+
+TAG_RE = re.compile(r'<[^>]+>')
+
 
 def download_gspread():
     gc = gspread.service_account(filename=os.path.join(BASEDIR, 'secrets', 'runningimages.key.json'))
@@ -41,6 +43,12 @@ def validate_is_yesno(df, colname):
         raise RuntimeError(f'Bad values in bool column {col}')
 
 
+def remove_tags(text):
+    if not text:
+        return text
+    return TAG_RE.sub('', text).strip()
+
+
 def clean_gspread_data(orig_data):
 
     data = orig_data.copy()
@@ -62,6 +70,7 @@ def clean_gspread_data(orig_data):
 
     # Col title
     validate_non_empty(data, 'title')
+    data['title'] = data.title.apply(remove_tags)
     validate_unique(data, 'title')
 
     # Col release_year
@@ -69,15 +78,16 @@ def clean_gspread_data(orig_data):
     if data.release_year.dtype is not np.dtype('int64'):
         raise RuntimeError(f'Invalid value(s) in release_year field. Column type is not int64')
 
-    # Col slug
+    # Col slug -> slug_fs + slug_web
     validate_non_empty(data, 'slug')
-    data['slug'] = data.slug.apply(lambda x: x.lower())
-    validate_unique(data, 'slug')
+    data['slug_fs'] = data.slug.apply(lambda x: x.lower())
+    validate_unique(data, 'slug_fs')
     def build_web_slug(idx, slug):
         if re.match(r'^[0-9a-z\_]+$', slug) is None:
             raise RuntimeError(f'Invalid slug in col id == {idx} ({slug})')
         return slug.replace('_', '-')
-    data['slug_web'] = data.apply(lambda row: build_web_slug(row.id, row.slug), axis=1)
+    data['slug_web'] = data.apply(lambda row: build_web_slug(row.id, row.slug_fs), axis=1)
+    data.drop('slug', axis=1, inplace=True)
 
     # Col created
     validate_non_empty(data, 'created')
@@ -126,12 +136,27 @@ def clean_gspread_data(orig_data):
 
     # Col description
     validate_non_empty(data, 'description')
+    data['description'] = data.description.apply(remove_tags)
 
     # TODO Warn if no video link in video
 
     # Col free access
     validate_non_empty(data, 'free_access')
     data['free_access'] = data['free_access'].apply(lambda val: val == 'yes')
+
+    # Add category info
+    def set_category(year):
+        if year < 2000:
+            return 'x-1999'
+        elif year < 2005:
+            return '2000-2004'
+        elif year < 2010:
+            return '2005-2009'
+        elif year < 2015:
+            return '2010-2014'
+        else:
+            return '2015-x'
+    data['category'] = data.release_year.apply(set_category)
 
     return data
 
@@ -174,64 +199,9 @@ def extract_keywords(data, similarity_threshold=3):
     return out_final
 
 
-def set_category(year):
-    if year < 2000:
-        return 'x-1999'
-    elif year < 2005:
-        return '2000-2004'
-    elif year < 2010:
-        return '2005-2009'
-    elif year < 2015:
-        return '2010-2014'
-    else:
-        return '2015-x'
-
-
-def create_videos(data, keywords):
-    items = []
-
-    for _, row in data.iterrows():
-        item = {
-            'id': row.id,
-            'title': row.title,
-            'slug_web': row.slug_web,
-            'slug_fs': row.slug,
-            'created': row.created,
-            'release_year': row.release_year,
-            'category': set_category(row.release_year),
-            'duration': row.duration,
-            'created': row.created,
-            'production': row.production,
-            'direction': row.direction,
-            'sponsors': row.sponsors,
-            'people': row.people,
-            'events': row.events,
-            'description': row.description,
-            'summary': textwrap.shorten(row.description, width=SUMMARY_LENGTH, placeholder="..."),
-            'free_access': row.free_access,
-            'language': row.language,
-            'country': row.country,
-            'link_trailer': row.link_trailer,
-            'link_stream': row.link_stream,
-            'link_official': row.link_official
-        }
-
-        item['authors'] = item['direction']
-
-        # build tags
-        item['tags'] = []
-        for name, info in keywords.items():
-            if item[name] is np.NaN:
-                continue
-            item['tags'] += [elem for elem in item[name] if info.get(elem, {}).get('is_tag', False)]
-
-        items.append(item)
-
-    return items
-
-
 def build_site_data():
     data = download_gspread()
-    data = clean_gspread_data(data)
-    keywords = extract_keywords(data)
-    return data, keywords
+    data_df = clean_gspread_data(data)
+    keywords = extract_keywords(data_df)
+    videos = data_df.to_dict('records')
+    return videos, keywords

@@ -3,10 +3,18 @@ How To Run 100 Miles
 
 :slug: how-to-run-100-miles
 :date: 2020-12-31
-:tags: 
 :summary: In September 2017, I stepped up to the starting line of the Run Rabbit Run 100 in Steamboat Springs, Colorado, alongside my friend Jayson Sime. The...
-:category: 2015-x
-:authors: Brendan Leonard
+:release_year: 2018
+:duration: 28min 13s
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: iC7Lh4opLsc
+:player_url: https://www.youtube.com/watch?v=iC7Lh4opLsc
+:events: Run Rabbit Run 100
+:sponsors: REI
+:production: Brendan Leonard
+:direction: Brendan Leonard
 
 In September 2017, I stepped up to the starting line of the Run Rabbit Run 100 in Steamboat Springs, Colorado, alongside my friend Jayson Sime. The race is a 102.9-mile ultramarathon with 20,000 feet of elevation gain, which is no small feat for a couple of guys who don’t know what they’re doing.
 

@@ -3,10 +3,18 @@ Transcend
 
 :slug: transcend
 :date: 2020-12-31
-:tags: 
 :summary: Long-distance running allowed Wesley Korir to escape the grinding poverty of Kenya. But after winning multiple American marathons, including taking...
-:category: 2010-2014
-:authors: Tad Munnings;Michael Del Monte
+:release_year: 2014
+:duration: 
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: x2CZHFxoZaM
+:player_url: https://www.youtube.com/watch?v=x2CZHFxoZaM
+:link_official: https://www.thefilmtranscend.com/
+:people: Wesley Korir
+:production: Storystream Creative
+:direction: Tad Munnings;Michael Del Monte
 
 Long-distance running allowed Wesley Korir to escape the grinding poverty of Kenya. But after winning multiple American marathons, including taking running’s most cherished prize – the Boston Marathon, he risks it all and returns home to help his fellow Kenyans create better lives for themselves. In what proves to be the most challenging race of his career, Wesley takes on a well-financed, big-party candidate to run for a seat
 

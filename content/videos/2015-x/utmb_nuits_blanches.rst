@@ -3,10 +3,19 @@ UTMB: Nuits Blanches
 
 :slug: utmb-nuits-blanches
 :date: 2020-12-31
-:tags: UTMB;Alexis Berg;Alexis Berg
 :summary: What’s it like to run into the darkness? And not be sure what lies on the other side? We captured the athletes racing the 100-mile Ultra-Trail Mt....
-:category: 2015-x
-:authors: Alexis Berg
+:release_year: 2019
+:duration: 7min
+:language: English
+:country: France
+:player_type: youtube
+:player_vid: LmoqgYjKTAI
+:player_url: https://www.youtube.com/watch?v=LmoqgYjKTAI
+:events: UTMB
+:sponsors: Strava
+:production: Alexis Berg
+:direction: Alexis Berg
+:tags: UTMB;Alexis Berg;Alexis Berg
 
 What’s it like to run into the darkness? And not be sure what lies on the other side? 
 

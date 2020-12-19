@@ -3,10 +3,19 @@ Unbreakable
 
 :slug: unbreakable
 :date: 2020-12-31
-:tags: Western States 100;Anton Krupicka;Kilian Jornet;JourneyFilm;JB Benna
 :summary: Unbreakable: The Western States 100 follows the four lead men on this amazing journey. Hal Koerner, two time defending Western States champion, and...
-:category: 2010-2014
-:authors: JB Benna
+:release_year: 2011
+:duration: 1h 45min 54s
+:language: English
+:country: United States
+:player_type: youtube
+:player_vid: zy1as6CTYXI
+:player_url: https://www.youtube.com/watch?v=zy1as6CTYXI
+:events: Western States 100
+:people: Anton Krupicka;Geof Rhodes;Kilian Jornet
+:production: JourneyFilm
+:direction: JB Benna
+:tags: Western States 100;Anton Krupicka;Kilian Jornet;JourneyFilm;JB Benna
 
 Unbreakable: The Western States 100 follows the four lead men on this amazing journey. Hal Koerner, two time defending Western States champion, and running store entrepreneur from Ashland, Oregon. Geoff Roes, undefeated at the 100-mile distance, an organic chef from Juneau, Alaska. Anton Krupicka, undefeated in every ultramarathon he has ever started, a graduate student living in Boulder, Colorado. Kilian Jornet, the young mountain runner and two time Ultra-trail du Mont-Blanc champion, from Spain.
 

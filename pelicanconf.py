@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+#from plugins import runningimages
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['runningimages']
+
+LOAD_CONTENT_CACHE = False
+
 AUTHOR = 'Rodolfo Ripado'
 SITENAME = 'Running Images'
 SITEURL = ''

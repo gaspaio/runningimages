@@ -30,5 +30,7 @@ LANG_MAP = {
 
 IMG_FORMATS = ['jpg']
 
+TAG_SEPARATOR = ';'
+
 BASEDIR = os.path.join(os.path.dirname(__file__), '..')
 

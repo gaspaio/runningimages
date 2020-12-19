@@ -3,9 +3,18 @@ Running America
 
 :slug: running-america
 :date: 2020-12-31
-:tags: US Transcontinental;Charlie Engle
 :summary: Charlie Engle (from Running the Sahara) and Ultra-Marathoner Marshall Ulrich press the human physical and mental strengths to their limits in a run...
-:category: 2005-2009
-:authors: Kevin Kerwin
+:release_year: 2008
+:duration: 1h 25min
+:language: English
+:country: United States
+:link_vod: https://www.amazon.com/Running-America-Charlie-Engle/dp/B01AUIVEN8
+:player_type: vimeo
+:player_vid: 286603538
+:player_url: https://vimeo.com/286603538
+:events: US Transcontinental
+:people: Marshall Ulrich;Charlie Engle
+:direction: Kevin Kerwin
+:tags: US Transcontinental;Charlie Engle
 
 Charlie Engle (from Running the Sahara) and Ultra-Marathoner Marshall Ulrich press the human physical and mental strengths to their limits in a run from San Francisco to Times Square.
