@@ -5,9 +5,11 @@ WONDERLAND: Gary Robbins' FKT around Mount Rainier
 :date: 2020-12-31
 :summary: On July 1st, 2015, Gary Robbins - a seasoned and winning ultrarunner - started at Longmire, in the shadow of Mount Rainier, and attempted to set...
 :release_year: 2015
-:duration: 36min 21s
+:duration: 36 min
 :language: English
 :country: United States
+:img_main: images/wonderland.main.jpg
+:img_thumb: wonderland.thumb.jpg
 :player_type: youtube
 :player_vid: RH4Zq6j0hZQ
 :player_url: https://www.youtube.com/watch?v=RH4Zq6j0hZQ

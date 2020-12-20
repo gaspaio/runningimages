@@ -5,9 +5,11 @@ Lighting The Fire: Wrong Turns
 :date: 2020-12-31
 :summary: From 9MindAsylum, "Lighting The Fire: Wrong Turns" tells the story of Jim Walmsley's eventful start in the sport of ultrarunning. After being...
 :release_year: 2016
-:duration: 14min
+:duration: 14 min
 :language: English
 :country: United States
+:img_main: images/wrong_turns.main.jpg
+:img_thumb: wrong_turns.thumb.jpg
 :player_type: youtube
 :player_vid: zkdWjq34h5w
 :player_url: https://www.youtube.com/watch?v=zkdWjq34h5w

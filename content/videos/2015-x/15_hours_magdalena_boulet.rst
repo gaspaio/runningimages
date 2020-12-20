@@ -5,9 +5,11 @@
 :date: 2020-12-31
 :summary: Magdalena Boulet wears many hats (yes, including her signature GU straw hat). In this latest snapshot of a typical day in the life of a remarkable...
 :release_year: 2016
-:duration: 6min 12s
+:duration: 6 min
 :language: English
 :country: United States
+:img_main: images/15_hours_magdalena_boulet.main.jpg
+:img_thumb: 15_hours_magdalena_boulet.thumb.jpg
 :player_type: youtube
 :player_vid: 65t6HHk-zec
 :player_url: https://www.youtube.com/watch?v=65t6HHk-zec

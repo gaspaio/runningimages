@@ -5,9 +5,11 @@ Brothers in the sand
 :date: 2020-12-31
 :summary: Five siblings attempt to become the first family in history to complete the Marathon Des Sables. But the world's toughest foot race pushes them to...
 :release_year: 2017
-:duration: 50min
+:duration: 50 min
 :language: English
 :country: United Kingdom
+:img_main: images/brothers_in_the_sand.main.jpg
+:img_thumb: brothers_in_the_sand.thumb.jpg
 :link_vod: https://www.amazon.co.uk/Brothers-Sand-James-White/dp/B07TKZJ3SZ
 :player_type: vimeo
 :player_vid: 305778200

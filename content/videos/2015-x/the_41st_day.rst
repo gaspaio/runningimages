@@ -5,9 +5,11 @@ The 41st Day
 :date: 2020-12-31
 :summary: Ryan Hall is the fastest marathon runner in American history. His consistency is only matched by legends of the sport. In order to go down as the...
 :release_year: 2019
-:duration: 1h 29min
+:duration: 1h 29 min
 :language: English
 :country: United States
+:img_main: images/the_41st_day.main.jpg
+:img_thumb: the_41st_day.thumb.jpg
 :player_type: youtube
 :player_vid: 2wE4L4IlOFo
 :player_url: https://www.youtube.com/watch?v=2wE4L4IlOFo

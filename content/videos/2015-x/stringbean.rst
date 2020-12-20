@@ -5,9 +5,11 @@ STRINGBEAN - Appalachian Trail FKT Documentary
 :date: 2020-12-31
 :summary: Stringbean tells the story of ultrarunner Joe McConaughy as he attempts to break the speed record on the Appalachian Trail. It takes most hikers...
 :release_year: 2017
-:duration: 14min
+:duration: 14 min
 :language: English
 :country: United States
+:img_main: images/stringbean.main.jpg
+:img_thumb: stringbean.thumb.jpg
 :player_type: youtube
 :player_vid: fCy7ASKYLto
 :player_url: https://www.youtube.com/watch?v=fCy7ASKYLto

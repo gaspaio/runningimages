@@ -5,9 +5,11 @@ Anton Kupricka, l’ovni de l’ultra trail
 :date: 2020-12-31
 :summary: French TV short documentary on Anton Kupricka.
 :release_year: 2018
-:duration: 24min 47s
+:duration: 25 min
 :language: French
 :country: France
+:img_main: images/anton_krupicka_l_ovni_de_l_ultra_trail.main.jpg
+:img_thumb: anton_krupicka_l_ovni_de_l_ultra_trail.thumb.jpg
 :player_type: youtube
 :player_vid: 7_DCHl-gKAo
 :player_url: https://www.youtube.com/watch?v=7_DCHl-gKAo

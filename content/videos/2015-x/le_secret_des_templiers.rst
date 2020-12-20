@@ -5,9 +5,11 @@ Le secret des Templiers
 :date: 2020-12-31
 :summary: Le Festival des Templiers est l’un des premiers événements de trail en France au cœur des grands Causses des Cévennes. Dans ce film, les athlètes...
 :release_year: 2020
-:duration: 12min 28s
+:duration: 12 min
 :language: English
 :country: France
+:img_main: images/le_secret_des_templiers.main.jpg
+:img_thumb: le_secret_des_templiers.thumb.jpg
 :player_type: youtube
 :player_vid: qWPRHfho7tE
 :player_url: https://www.youtube.com/watch?v=qWPRHfho7tE

@@ -5,9 +5,11 @@ Unbreakable
 :date: 2020-12-31
 :summary: Unbreakable: The Western States 100 follows the four lead men on this amazing journey. Hal Koerner, two time defending Western States champion, and...
 :release_year: 2011
-:duration: 1h 45min 54s
+:duration: 1h 46 min
 :language: English
 :country: United States
+:img_main: images/unbreakable.main.jpg
+:img_thumb: unbreakable.thumb.jpg
 :player_type: youtube
 :player_vid: zy1as6CTYXI
 :player_url: https://www.youtube.com/watch?v=zy1as6CTYXI

@@ -5,9 +5,11 @@ Into the wind
 :date: 2020-12-31
 :summary: [wikipedia] Into the Wind is a 2010 documentary film which chronicles the story of Terry Fox. At the age of 18, Fox was diagnosed with...
 :release_year: 2010
-:duration: 51min
+:duration: 51 min
 :language: English
 :country: United States
+:img_main: images/into_the_wind.main.jpg
+:img_thumb: into_the_wind.thumb.jpg
 :player_type: youtube
 :player_vid: ukNlGrlE9TM
 :player_url: https://www.youtube.com/watch?v=ukNlGrlE9TM

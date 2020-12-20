@@ -25,8 +25,13 @@ def format_duration(tt):
     minutes, seconds = divmod(remainder, 60)
     out = []
     if hours > 0: out.append(f'{int(hours)}h')
-    if minutes > 0: out.append(f'{int(minutes)}min')
-    if seconds > 0: out.append(f'{int(seconds)}s')
+    mins = 0
+    if minutes > 0:
+        mins = int(minutes)
+    if seconds > 30:
+        mins += 1
+    if mins > 0:
+        out.append(f'{mins} min')
     return ' '.join(out)
 
 
@@ -41,7 +46,7 @@ def player_metas(link):
     }
 
 
-def video_build_metadata(video, keywords, medias):
+def video_build_metadata(video, keywords, images):
     metas = {}
     metas['slug'] = video['slug_web']
     metas['date'] = video['created'].strftime('%Y-%m-%d')
@@ -56,6 +61,17 @@ def video_build_metadata(video, keywords, medias):
         metas['country'] = video['country']
 
     free = video['free_access'] if video['free_access'] is not np.NaN else False
+
+    if images is not None:
+        img_main = images.get('main', None)
+        img_thumb = images.get('thumb', None)
+        if img_main is not None:
+            metas['img_main'] = f'images/{img_main}'
+            metas['img_thumb'] =i f'images/{img_main}'
+        if img_thumb is not None:
+            metas['img_thumb'] = f'images/{img_thumb}'
+            if img_main is None:
+                metas['img_main'] = f'images/{img_thumb}'
 
     # Generate video links
     player_link = None
@@ -90,13 +106,13 @@ def video_build_metadata(video, keywords, medias):
     return metas
 
 
-def to_video_page(video, keywords, medias):
+def to_video_page(video, keywords, images):
 
     out = [video['title']]
     out.append('#'*len(video['title']))
     out.append('')
 
-    for key, value in video_build_metadata(video, keywords, medias).items():
+    for key, value in video_build_metadata(video, keywords, images).items():
         out.append(f":{key}: {value}")
 
     out.append('')

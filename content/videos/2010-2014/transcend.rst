@@ -8,6 +8,8 @@ Transcend
 :duration: 
 :language: English
 :country: United States
+:img_main: images/transcend.main.jpg
+:img_thumb: transcend.thumb.jpg
 :player_type: youtube
 :player_vid: x2CZHFxoZaM
 :player_url: https://www.youtube.com/watch?v=x2CZHFxoZaM

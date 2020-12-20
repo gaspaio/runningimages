@@ -5,9 +5,11 @@ Life in a day
 :date: 2020-12-31
 :summary: On June 25, 2016 a collection of trail and ultra runners toed the line at the historic Western States 100 Mile Endurance Run running from Squaw...
 :release_year: 2016
-:duration: 1h 2min
+:duration: 1h 2 min
 :language: English
 :country: United States
+:img_main: images/life_in_a_day.main.jpg
+:img_thumb: life_in_a_day.thumb.jpg
 :player_type: youtube
 :player_vid: kYgcTJBLwsU
 :player_url: https://www.youtube.com/watch?v=kYgcTJBLwsU

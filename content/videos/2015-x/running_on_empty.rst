@@ -5,9 +5,11 @@ Running On Empty ft. Rory Bosio
 :date: 2020-12-31
 :summary: Revivez la traversée du GR20 en Corse par la championne américaine d’ultra-trail Rory Bosio, double vainqueure de l’UTMB, en 2013 (record de...
 :release_year: 2018
-:duration: 14min 38s
+:duration: 15 min
 :language: English
 :country: United States
+:img_main: images/running_on_empty.main.jpg
+:img_thumb: running_on_empty.thumb.jpg
 :player_type: youtube
 :player_vid: TgyOQK9gX8E
 :player_url: https://www.youtube.com/watch?v=TgyOQK9gX8E

@@ -5,8 +5,10 @@ Path to everest
 :date: 2020-12-31
 :summary: When he was a child Kilian Jornet, the world's greatest ever mountain runner, made a list of all the races he wanted to win and all the mountains...
 :release_year: 2018
-:duration: 1h 24min
+:duration: 1h 24 min
 :language: English
+:img_main: images/path_to_everest.main.jpg
+:img_thumb: path_to_everest.thumb.jpg
 :player_type: youtube
 :player_vid: cTb5_B0wSUQ
 :player_url: https://www.youtube.com/watch?v=cTb5_B0wSUQ

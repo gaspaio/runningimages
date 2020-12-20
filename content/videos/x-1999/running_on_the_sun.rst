@@ -5,9 +5,11 @@ Running on the Sun
 :date: 2020-12-31
 :summary: Feature-length documentary about the 1999 Badwater Ultramarathon. This legendary, epic, 135 mile running race travels non-stop in the heat of...
 :release_year: 1999
-:duration: 1h 39min 56s
+:duration: 1h 40 min
 :language: English
 :country: United States
+:img_main: images/running_on_the_sun.main.jpg
+:img_thumb: running_on_the_sun.thumb.jpg
 :player_type: youtube
 :player_vid: dl3laLhbCsw
 :player_url: https://www.youtube.com/watch?v=dl3laLhbCsw

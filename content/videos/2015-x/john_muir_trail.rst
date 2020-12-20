@@ -5,9 +5,11 @@ John Muir Trail
 :date: 2020-12-31
 :summary: Ultratrail has always been Francois' main excuse or reason to drop everything and leave on a new adventure. For this to happen, he tries to broaden...
 :release_year: 2018
-:duration: 14min 38s
+:duration: 15 min
 :language: French
 :country: France
+:img_main: images/john_muir_trail.main.jpg
+:img_thumb: john_muir_trail.thumb.jpg
 :player_type: youtube
 :player_vid: GhzoCeMkeN4
 :player_url: https://www.youtube.com/watch?v=GhzoCeMkeN4

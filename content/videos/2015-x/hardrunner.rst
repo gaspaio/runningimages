@@ -5,9 +5,11 @@ Hardrunner
 :date: 2020-12-31
 :summary: The Harkrock 100 is the perfect race to illustrate the difference between european ans US ultra-trail worlds. In this race there are only 140...
 :release_year: 2015
-:duration: 13min 15s
+:duration: 13 min
 :language: French
 :country: France
+:img_main: images/hardrunner.main.jpg
+:img_thumb: hardrunner.thumb.jpg
 :player_type: youtube
 :player_vid: EVS3bDV0LS4
 :player_url: https://www.youtube.com/watch?v=EVS3bDV0LS4

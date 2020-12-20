@@ -5,7 +5,7 @@ Karl Meltzer: Made to be Broken
 :date: 2020-12-31
 :summary: Ultrarunner Karl Meltzer has long dreamed of setting the speed record for crossing the USA's Appalachian Trail. This is his third and final attempt...
 :release_year: 2017
-:duration: 41min
+:duration: 41 min
 :language: English
 :country: United States
 :events: Appalachian Trail

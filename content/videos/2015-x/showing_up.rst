@@ -5,8 +5,10 @@ Showing Up
 :date: 2020-12-31
 :summary: The documentary film will take you in-depth into the lives of 8 athletes who collectively tell the story of community, identity, and why it matters...
 :release_year: 2016
-:duration: 27min
+:duration: 27 min
 :language: English
+:img_main: images/showing_up.main.jpg
+:img_thumb: showing_up.thumb.jpg
 :player_type: youtube
 :player_vid: AwofbcpEUgw
 :player_url: https://www.youtube.com/watch?v=AwofbcpEUgw

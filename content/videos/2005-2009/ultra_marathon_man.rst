@@ -5,9 +5,11 @@ UltraMarathon Man: 50 Marathons • 50 States • 50 Days
 :date: 2020-12-31
 :summary: The inspirational film, UltraMarathon Man: 50 Marathons • 50 States • 50 Days, features renowned endurance athlete and best selling author Dean...
 :release_year: 2006
-:duration: 1h 50min 36s
+:duration: 1h 51 min
 :language: English
 :country: United States
+:img_main: images/ultra_marathon_man.main.jpg
+:img_thumb: ultra_marathon_man.thumb.jpg
 :player_type: youtube
 :player_vid: bpjRFkqTIkY
 :player_url: https://www.youtube.com/watch?v=bpjRFkqTIkY

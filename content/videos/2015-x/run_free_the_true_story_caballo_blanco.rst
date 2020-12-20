@@ -5,9 +5,11 @@ Run Free: The True Story of Caballo Blanco
 :date: 2020-12-31
 :summary: Run Free is a movie about Micah True (Caballo Blanco, or the White Horse), an American ultra runner who helped the Tarahumara Indians of Mexico...
 :release_year: 2015
-:duration: 1h 31min
+:duration: 1h 31 min
 :language: English
 :country: United States
+:img_main: images/run_free_the_true_story_caballo_blanco.main.jpg
+:img_thumb: run_free_the_true_story_caballo_blanco.thumb.jpg
 :player_type: youtube
 :player_vid: FMVECEaQ0Jo
 :player_url: https://www.youtube.com/watch?v=FMVECEaQ0Jo

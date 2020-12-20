@@ -5,9 +5,11 @@ Skid Row Marathon
 :date: 2020-12-31
 :summary: Skid Row Marathon is the uplifting and inspiring story of an unlikely group of individuals from LA's Skid Row, who receive a second chance at life,...
 :release_year: 2017
-:duration: 1h 24min
+:duration: 1h 24 min
 :language: English
 :country: United States
+:img_main: images/skid_row_marathon.main.jpg
+:img_thumb: skid_row_marathon.thumb.jpg
 :player_type: vimeo
 :player_vid: 317162644
 :player_url: https://vimeo.com/317162644

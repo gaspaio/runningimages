@@ -5,9 +5,11 @@ Kroger’s Canteen
 :date: 2020-12-31
 :summary: In 2014, Kilian Jornet won the Hard Rock 100 mile run through the San Juan’s of Colorado. Along the way he stopped at Kroger’s Canteen – an aid...
 :release_year: 2015
-:duration: 7min 47s
+:duration: 8 min
 :language: English
 :country: United States
+:img_main: images/kroger_s_canteen.main.jpg
+:img_thumb: kroger_s_canteen.thumb.jpg
 :player_type: youtube
 :player_vid: P5e7pr2Z6ZU
 :player_url: https://www.youtube.com/watch?v=P5e7pr2Z6ZU

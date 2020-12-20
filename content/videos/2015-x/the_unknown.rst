@@ -5,9 +5,11 @@ THE UNKNOWN | The Hardrock 100
 :date: 2020-12-31
 :summary: "You really have to embrace the unknown. You can try all you want to script it - how you see the day going and have these plans. But the mountains...
 :release_year: 2017
-:duration: 25min 51s
+:duration: 26 min
 :language: English
 :country: United States
+:img_main: images/the_unknown.main.jpg
+:img_thumb: the_unknown.thumb.jpg
 :player_type: youtube
 :player_vid: d7iwV1vr5_8
 :player_url: https://www.youtube.com/watch?v=d7iwV1vr5_8

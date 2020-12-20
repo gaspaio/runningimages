@@ -5,9 +5,11 @@ Paul Tierney: Running The Wainwrights
 :date: 2020-12-31
 :summary: In June 2019, inov-8 ambassador Paul Tierney set out on an epic adventure to summit all 214 Alfred Wainwright Lake District peaks in one go. His...
 :release_year: 2019
-:duration: 1h 2min
+:duration: 1h 2 min
 :language: English
 :country: United Kingdom
+:img_main: images/running_the_wainwrights.main.jpg
+:img_thumb: running_the_wainwrights.thumb.jpg
 :player_type: youtube
 :player_vid: laMBEjxlst8
 :player_url: https://www.youtube.com/watch?v=laMBEjxlst8

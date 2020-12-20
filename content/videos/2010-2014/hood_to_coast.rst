@@ -5,9 +5,11 @@ Hood to coast
 :date: 2020-12-31
 :summary: [Runner's World] Runners who have ever wanted to participate in the Hood to Coast relay, one of the largest of its kind in the world, might want to...
 :release_year: 2011
-:duration: 1h 41min
+:duration: 1h 41 min
 :language: English
 :country: United States
+:img_main: images/hood_to_coast.main.jpg
+:img_thumb: hood_to_coast.thumb.jpg
 :player_type: youtube
 :player_vid: 1m_1Vm666bc
 :player_url: https://www.youtube.com/watch?v=1m_1Vm666bc

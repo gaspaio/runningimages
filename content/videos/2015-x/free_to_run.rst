@@ -5,9 +5,11 @@ Free to Run
 :date: 2020-12-31
 :summary: Today, all anybody needs to run is the determination and a pair of the right shoes. But just fifty years ago, running was viewed almost exclusively...
 :release_year: 2016
-:duration: 1h 30min
+:duration: 1h 30 min
 :language: English
 :country: United States
+:img_main: images/free_to_run.main.jpg
+:img_thumb: free_to_run.thumb.jpg
 :player_type: youtube
 :player_vid: USVpGHu6L88
 :player_url: https://www.youtube.com/watch?v=USVpGHu6L88

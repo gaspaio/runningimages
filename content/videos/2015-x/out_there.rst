@@ -5,9 +5,11 @@ Out There - A Journey to the Barkley Marathons
 :date: 2020-12-31
 :summary: The Barkley Marathons - one of the world's toughest ultramarathons, has been held annually in the Frozen Head State Park, Tennessee, since 1987....
 :release_year: 2020
-:duration: 53min 47s
+:duration: 54 min
 :language: English
 :country: United States
+:img_main: images/out_there.main.jpg
+:img_thumb: out_there.thumb.jpg
 :player_type: youtube
 :player_vid: Jt3XPQFLOF8
 :player_url: https://www.youtube.com/watch?v=Jt3XPQFLOF8

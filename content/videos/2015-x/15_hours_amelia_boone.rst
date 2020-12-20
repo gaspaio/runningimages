@@ -5,9 +5,11 @@
 :date: 2020-12-31
 :summary: "The Struggle Ends When the Gratitude Begins" - a quote Obstacle Course Racing Champion Amelia Boone leaned on when at the zenith of her endurance...
 :release_year: 2018
-:duration: 8min 31s
+:duration: 9 min
 :language: English
 :country: United States
+:img_main: images/15_hours_amelia_boone.main.jpg
+:img_thumb: 15_hours_amelia_boone.thumb.jpg
 :player_type: youtube
 :player_vid: wz_2M2jzCUg
 :player_url: https://www.youtube.com/watch?v=wz_2M2jzCUg

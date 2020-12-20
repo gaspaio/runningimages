@@ -5,9 +5,11 @@ Thabang
 :date: 2020-12-31
 :summary: Thabang Madiba somehow found his way into the world of trail running and in the last few years has become everyone’s favourite in the South African...
 :release_year: 2019
-:duration: 13min 15s
+:duration: 13 min
 :language: English
 :country: South Africa
+:img_main: images/thabang.main.jpg
+:img_thumb: thabang.thumb.jpg
 :player_type: youtube
 :player_vid: F0NR4Qqje4A
 :player_url: https://m.youtube.com/watch?v=F0NR4Qqje4A

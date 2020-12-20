@@ -5,9 +5,11 @@ The Human Race
 :date: 2020-12-31
 :summary: THE HUMAN RACE is an inspirational full-length documentary about six runners, all over the age of 50, as they each train for the biggest race of...
 :release_year: 2019
-:duration: 1h 43min
+:duration: 1h 43 min
 :language: English
 :country: United States
+:img_main: images/the_human_race.main.jpg
+:img_thumb: the_human_race.thumb.jpg
 :player_type: youtube
 :player_vid: nHdDYATss5Y
 :player_url: https://www.youtube.com/watch?v=nHdDYATss5Y

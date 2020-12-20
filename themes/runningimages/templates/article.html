@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-{{ SITENAME }} - {{ article.title|striptags  }}{% if article.keywords %} - {{ article.keywords|striptags }}{% endif %}
+{{ article.title|striptags  }}{% if article.keywords %} - {{ article.keywords|striptags }}{% endif %} - {{ SITENAME }}
 {% endblock %}
 
 
@@ -22,7 +22,9 @@
     </div>
     {% else %}
     <div class="no-video-container">
-        <p>Vidéo player is not available. There should be an image here !</p>
+        {% if article.img_main %}
+        <img src={{ SITEURL}}/{{ article.img_main }} style="width: 100%;" />
+        {% endif %}
     </div>
     {% endif %}
 </section>
@@ -30,7 +32,58 @@
     <h1 class="title">{{ article.title | striptags }}</h1>
     <div class="columns">
         <div id="infobox" class="column is-one-third is-light">
-            infobox data
+            {% if article.info_items.direction %}
+            <div class="infobox-item">
+                <strong>Direction :</strong>
+                <ul>
+                {% for item in article.info_items.direction %}
+                <li>{% if item.url %}<a href="{{ SITEURL }}/{{ item.url }}" title="See all videos directed by {{item.name}}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            <div class="infobox-item">
+                <strong>Release year :</strong> {{ article.release_year }}
+            </div>
+            {% if article.duration %}
+            <div class="infobox-item"><strong>Duration :</strong> {{ article.duration }}</div>
+            {% endif %}
+            {% if article.info_items.production %}
+            <div class="infobox-item">
+                <strong>Production :</strong>
+                <ul>
+                {% for item in article.info_items.production %}
+                <li>{% if item.url %}<a href="{{ SITEURL }}/{{ item.url }}" title="See all videos produced by {{item.name}}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            {% if article.country %}
+            <div class="infobox-item"><strong>Country :</strong> {{ article.country }}</div>
+            {% endif %}
+            {% if article.language %}
+            <div class="infobox-item"><strong>Language :</strong> {{ article.language }}</div>
+            {% endif %}
+            {% if article.info_items.events %}
+            <div class="infobox-item">
+                <strong>Events :</strong>
+                <ul>
+                {% for item in article.info_items.events %}
+                <li>{% if item.url %}<a href="{{ SITEURL }}/{{ item.url }}" title="See all videos about {{item.name}}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            {% if article.info_items.people %}
+            <div class="infobox-item">
+                <strong>Starring :</strong>
+                <ul>
+                {% for item in article.info_items.people %}
+                <li>{% if item.url %}<a href="{{ SITEURL }}/{{ item.url }}" title="See all videos staring {{item.name}}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
         </div>
         <div class="column">
             <div class="block">

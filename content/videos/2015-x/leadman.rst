@@ -5,9 +5,11 @@ LEADMAN: The Dave Mackey Story
 :date: 2020-12-31
 :summary: On May 23, 2015, the unimaginable happened to Altra Running and CamelBak athlete Dave Mackey on a routine training run. At the summit of Bear Peak,...
 :release_year: 2019
-:duration: 24min 14s
+:duration: 24 min
 :language: English
 :country: United States
+:img_main: images/leadman.main.jpg
+:img_thumb: leadman.thumb.jpg
 :player_type: youtube
 :player_vid: D5zti8iBbRI
 :player_url: https://www.youtube.com/watch?v=D5zti8iBbRI

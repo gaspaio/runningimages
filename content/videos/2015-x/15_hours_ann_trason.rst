@@ -5,9 +5,11 @@
 :date: 2020-12-31
 :summary: Arguably the greatest American ultrarunner of all time, Ann Trason won an unprecedented 14 times at the Western States 100 Mile Endurance Run while...
 :release_year: 2015
-:duration: 6min 43s
+:duration: 7 min
 :language: English
 :country: United States
+:img_main: images/15_hours_ann_trason.main.jpg
+:img_thumb: 15_hours_ann_trason.thumb.jpg
 :player_type: youtube
 :player_vid: ZszWslBd6qA
 :player_url: https://www.youtube.com/watch?v=ZszWslBd6qA

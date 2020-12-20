@@ -5,9 +5,11 @@ Brice, un vacher à l’assaut des Pyrénées
 :date: 2020-12-31
 :summary: Portrait d'un pâtre solitaire et marathonien de haut niveau. Depuis quatorze ans, Brice parcourt chaque été avec ses bêtes de vastes pâturages...
 :release_year: 2016
-:duration: 43min
+:duration: 43 min
 :language: French
 :country: France
+:img_main: images/brice_un_vacher_a_l_assaut_des_pyrenees.main.jpg
+:img_thumb: brice_un_vacher_a_l_assaut_des_pyrenees.thumb.jpg
 :player_type: youtube
 :player_vid: SuEXaXScIP4
 :player_url: https://www.youtube.com/watch?v=SuEXaXScIP4

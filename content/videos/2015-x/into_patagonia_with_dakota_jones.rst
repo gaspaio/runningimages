@@ -5,9 +5,11 @@ Into Patagonia With Dakota Jones
 :date: 2020-12-31
 :summary: Stretching in an unbroken sweep of agitated geology, Patagonia spans a massive area of over a million square kilometres and yet is home to less...
 :release_year: 2017
-:duration: 19min 24s
+:duration: 19 min
 :language: English
 :country: United States
+:img_main: images/into_patagonia_with_dakota_jones.main.jpg
+:img_thumb: into_patagonia_with_dakota_jones.thumb.jpg
 :player_type: youtube
 :player_vid: IA6OspNhK-s
 :player_url: https://www.youtube.com/watch?v=IA6OspNhK-s

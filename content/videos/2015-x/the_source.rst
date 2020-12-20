@@ -5,9 +5,11 @@ The source
 :date: 2020-12-31
 :summary: The Source is a documentary film that explores elite ultra runner Courtney Dauwalter's source of will. How does the candy-loving, beer drinking...
 :release_year: 2019
-:duration: 38min 52s
+:duration: 39 min
 :language: English
 :country: United States
+:img_main: images/the_source.main.jpg
+:img_thumb: the_source.thumb.jpg
 :player_type: youtube
 :player_vid: DQSiygnDm-U
 :player_url: https://www.youtube.com/watch?v=DQSiygnDm-U

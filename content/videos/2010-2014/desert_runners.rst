@@ -5,8 +5,10 @@ Desert Runners
 :date: 2020-12-31
 :summary: [amazon] A diverse cast of non-professional runners attempt to complete the most difficult ultra-marathon race series on Earth. Their dramatic...
 :release_year: 2013
-:duration: 15min
+:duration: 15 min
 :language: English
+:img_main: images/desert_runners.main.jpg
+:img_thumb: desert_runners.thumb.jpg
 :player_type: youtube
 :player_vid: 5HOc9bzjS8w
 :player_url: https://www.youtube.com/watch?v=5HOc9bzjS8w

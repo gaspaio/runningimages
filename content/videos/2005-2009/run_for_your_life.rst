@@ -5,9 +5,11 @@ Run for your life
 :date: 2020-12-31
 :summary: Without one eccentric, first-generation Jewish immigrant from Transylvania, the New York City Marathon simply wouldn't exist. Ehrlich's fun, loving...
 :release_year: 2008
-:duration: 1h 35min
+:duration: 1h 35 min
 :language: English
 :country: United States
+:img_main: images/run_for_your_life.main.jpg
+:img_thumb: run_for_your_life.thumb.jpg
 :player_type: youtube
 :player_vid: CMK7e7uP-TY
 :player_url: https://www.youtube.com/watch?v=CMK7e7uP-TY

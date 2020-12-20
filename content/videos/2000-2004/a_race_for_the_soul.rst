@@ -5,9 +5,11 @@ A Race For The Soul
 :date: 2020-12-31
 :summary: Short film on the 2001 Western States. A very refreshing look into the middle/back-of-the-pack runners.
 :release_year: 2001
-:duration: 57min 2s
+:duration: 57 min
 :language: English
 :country: United States
+:img_main: images/a_race_for_the_soul.main.jpg
+:img_thumb: a_race_for_the_soul.thumb.jpg
 :player_type: youtube
 :player_vid: 29Ie17DxiVM
 :player_url: https://www.youtube.com/watch?v=29Ie17DxiVM

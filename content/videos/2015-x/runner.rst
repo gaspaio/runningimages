@@ -7,6 +7,8 @@ Runner
 :release_year: 2020
 :duration: 
 :language: English
+:img_main: images/runner.main.jpg
+:img_thumb: runner.thumb.jpg
 :player_type: youtube
 :player_vid: dQR0ievGZUk
 :player_url: https://www.youtube.com/watch?v=dQR0ievGZUk

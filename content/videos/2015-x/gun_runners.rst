@@ -5,8 +5,10 @@ Gun Runners
 :date: 2020-12-31
 :summary: When it comes to world-class marathon runners, Kenyans are considered the cream of the crop. But some of Kenya's top runners aren't running for...
 :release_year: 2017
-:duration: 1h 29min
+:duration: 1h 29 min
 :language: French
+:img_main: images/gun_runners.main.jpg
+:img_thumb: gun_runners.thumb.jpg
 :player_type: youtube
 :player_vid: bb0PmTEZpP0
 :player_url: https://www.youtube.com/watch?v=bb0PmTEZpP0

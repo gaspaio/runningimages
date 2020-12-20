@@ -5,8 +5,10 @@ Spirit of the Marathon II
 :date: 2020-12-31
 :summary: From the producers of the award-winning documentary Spirit of the Marathon, this highly-anticipated sequel follows seven runners from around the...
 :release_year: 2016
-:duration: 1h 41min 12s
+:duration: 1h 41 min
 :language: English
+:img_main: images/spirit_of_the_marathon_2.main.jpg
+:img_thumb: spirit_of_the_marathon_2.thumb.jpg
 :player_type: youtube
 :player_vid: lYDiAnNlHPQ
 :player_url: https://www.youtube.com/watch?v=lYDiAnNlHPQ

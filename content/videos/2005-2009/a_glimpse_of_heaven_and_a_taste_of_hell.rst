@@ -5,13 +5,15 @@ A Glimpse of Heaven and A Taste of Hell
 :date: 2020-12-31
 :summary: Here you will get a chance to see what the 400 entrants from around the world experienced when competing in an ultra distance endurance run on the...
 :release_year: 2008
-:duration: 56min
+:duration: 56 min
 :language: English
 :country: United States
+:img_main: images/a_glimpse_of_heaven_and_a_taste_of_hell.main.jpg
+:img_thumb: a_glimpse_of_heaven_and_a_taste_of_hell.thumb.jpg
 :player_type: youtube
 :player_vid: MBVH63yoMpc
 :player_url: https://www.youtube.com/watch?v=MBVH63yoMpc
-:events: Tahoe Rim Trail 100
+:events: Tahoe Rim Trail Endurance Runs
 :production: H & A Productions
 :direction: Tyler Bourns
 

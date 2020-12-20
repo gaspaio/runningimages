@@ -5,9 +5,11 @@ The Barkley Marathons: The Race That Eats Its Young
 :date: 2020-12-31
 :summary: A famous prison escape sparks the idea for a cult-like race that has seen only 10 finishers in its first 25 years. This award-winning, oddly...
 :release_year: 2016
-:duration: 1h 29min
+:duration: 1h 29 min
 :language: English
 :country: United States
+:img_main: images/barkley_marathons_race_that_eats.main.jpg
+:img_thumb: barkley_marathons_race_that_eats.thumb.jpg
 :player_type: youtube
 :player_vid: 79IUKC9gS-8
 :player_url: https://www.youtube.com/watch?v=79IUKC9gS-8
