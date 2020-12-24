@@ -9,9 +9,9 @@ The running pastor
 :language: English
 :country: United Kingdom
 :img_main: images/the_running_pastor.main.jpg
-:img_thumb: the_running_pastor.thumb.jpg
-:player_type: youtube
+:img_thumb: images/the_running_pastor.thumb.jpg
 :player_vid: 9fJsOsKDbpk
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=9fJsOsKDbpk
 :sponsors: Merrell
 :production: Camp4Collective

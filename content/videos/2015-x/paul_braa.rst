@@ -9,9 +9,9 @@ Paul Braa – Western States 100
 :language: English
 :country: United States
 :img_main: images/paul_braa.main.jpg
-:img_thumb: paul_braa.thumb.jpg
-:player_type: youtube
+:img_thumb: images/paul_braa.thumb.jpg
 :player_vid: DPDsZSxEEAI
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=DPDsZSxEEAI
 :events: Western States 100
 :tags: Western States 100

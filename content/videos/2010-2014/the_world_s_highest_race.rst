@@ -8,9 +8,9 @@ The worlds' highest running race - 222km
 :duration: 52 min
 :language: English
 :img_main: images/the_world_s_highest_race.main.jpg
-:img_thumb: the_world_s_highest_race.thumb.jpg
-:player_type: youtube
+:img_thumb: images/the_world_s_highest_race.thumb.jpg
 :player_vid: rckSwLcvAyM
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=rckSwLcvAyM
 :people: Lisa Tamali
 :production: Nalu Productions

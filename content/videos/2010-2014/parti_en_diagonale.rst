@@ -9,15 +9,15 @@ Parti en diagonale (Grand Raid 2013)
 :language: French
 :country: France
 :img_main: images/parti_en_diagonale.main.jpg
-:img_thumb: parti_en_diagonale.thumb.jpg
-:player_type: youtube
+:img_thumb: images/parti_en_diagonale.thumb.jpg
 :player_vid: ql39EZNruGk
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=ql39EZNruGk
 :events: La Diagonale des Fous
 :people: Frédéric Berg
 :production: Alexis Berg
 :direction: Alexis Berg
-:tags: La Diagonale des Fous;Alexis Berg;Alexis Berg
+:tags: La Diagonale des Fous, Alexis Berg, Alexis Berg
 
 "La Diagonale des fous. Son nom dit tout ou presque. Cet ultra-trail tropical qui emprunte depuis plus de 20 ans le cadre unique et magique de l'île de La Réunion a parcouru cette année, en 2013, près de 170 km et gravit 10 000 mètres de dénivelé positif. Elle a entraîné dans sa danse intense plus de 2000 « fous ». On l'a dit une des courses à pied les plus dures au monde. 
 

@@ -9,9 +9,9 @@ Yannis Kouros - Forever running
 :language: Greek
 :country: Greece
 :img_main: images/yiannis_kouros_forever_running.main.jpg
-:img_thumb: yiannis_kouros_forever_running.thumb.jpg
-:player_type: youtube
+:img_thumb: images/yiannis_kouros_forever_running.thumb.jpg
 :player_vid: l7UzmKxe3Xk
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=l7UzmKxe3Xk
 :people: Yannis Kouros
 :direction: Elias Giannakakis

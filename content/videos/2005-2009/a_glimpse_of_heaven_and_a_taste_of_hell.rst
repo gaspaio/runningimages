@@ -9,9 +9,9 @@ A Glimpse of Heaven and A Taste of Hell
 :language: English
 :country: United States
 :img_main: images/a_glimpse_of_heaven_and_a_taste_of_hell.main.jpg
-:img_thumb: a_glimpse_of_heaven_and_a_taste_of_hell.thumb.jpg
-:player_type: youtube
+:img_thumb: images/a_glimpse_of_heaven_and_a_taste_of_hell.thumb.jpg
 :player_vid: MBVH63yoMpc
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=MBVH63yoMpc
 :events: Tahoe Rim Trail Endurance Runs
 :production: H & A Productions

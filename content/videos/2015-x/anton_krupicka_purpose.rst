@@ -9,9 +9,9 @@ Anton Krupicka - Purpose
 :language: English
 :country: United States
 :img_main: images/anton_krupicka_purpose.main.jpg
-:img_thumb: anton_krupicka_purpose.thumb.jpg
-:player_type: youtube
+:img_thumb: images/anton_krupicka_purpose.thumb.jpg
 :player_vid: x32CSodbbS8
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=x32CSodbbS8
 :people: Anton Krupicka
 :sponsors: La Sportiva

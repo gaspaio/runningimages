@@ -9,13 +9,13 @@ Origines - Une traversée du GR4
 :language: English
 :country: France
 :img_main: images/origines.main.jpg
-:img_thumb: origines.thumb.jpg
-:player_type: youtube
+:img_thumb: images/origines.thumb.jpg
 :player_vid: fG0sCXEJ08A
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=fG0sCXEJ08A
 :people: Thomas Lorblanchet
 :production: Mouss Films
 :direction: Étienne Valentin
-:tags: Mouss Films;Étienne Valentin
+:tags: Mouss Films, Étienne Valentin
 
 When trail running is a way to discover one's own back yard.

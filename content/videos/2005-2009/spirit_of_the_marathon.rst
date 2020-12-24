@@ -8,11 +8,11 @@ Spirit of the Marathon
 :duration: 1h 42 min
 :language: English
 :img_main: images/spirit_of_the_marathon.main.jpg
-:img_thumb: spirit_of_the_marathon.thumb.jpg
-:player_type: vimeo
+:img_thumb: images/spirit_of_the_marathon.thumb.jpg
 :player_vid: 444180172
+:player_type: vimeo
 :player_url: https://vimeo.com/444180172
-:people: Daniel Njenga;Jerry Meyers;Leah Caille;Lori O'Connor;Ryan Bradley;Deena Kastor
+:people: Daniel Njenga, Jerry Meyers, Leah Caille, Lori O'Connor, Ryan Bradley, Deena Kastor
 :direction: Jon Dunham
 :tags: Jon Dunham
 

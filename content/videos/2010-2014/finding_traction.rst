@@ -9,7 +9,10 @@ Finding Traction
 :language: English
 :country: United Kingdom
 :img_main: images/finding_traction.main.jpg
-:img_thumb: finding_traction.thumb.jpg
+:img_thumb: images/finding_traction.thumb.jpg
+:player_vid: x3pifzf
+:player_type: dailymotion
+:player_url: https://www.dailymotion.com/video/x3pifzf
 :people: Nikki Kimball
 :production: Jaime Jacobsen
 :direction: Jaime Jacobsen

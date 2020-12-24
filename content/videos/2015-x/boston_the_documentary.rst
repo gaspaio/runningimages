@@ -9,12 +9,12 @@ Boston: The Documentary
 :language: English
 :country: United States
 :img_main: images/boston_the_documentary.main.jpg
-:img_thumb: boston_the_documentary.thumb.jpg
-:player_type: youtube
+:img_thumb: images/boston_the_documentary.thumb.jpg
 :player_vid: w3p8VycaRNY
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=w3p8VycaRNY
 :link_official: http://bostonmarathonfilm.com/
-:people: Bill Rodgers;Frank Shorter;Joan Benoit Samuelson;Meb Keflezighi;Shalane Flanagan
+:people: Bill Rodgers, Frank Shorter, Joan Benoit Samuelson, Meb Keflezighi, Shalane Flanagan
 :production: First Run Features
 :direction: Jon Dunham
 :tags: Jon Dunham

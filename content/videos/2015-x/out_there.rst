@@ -9,13 +9,13 @@ Out There - A Journey to the Barkley Marathons
 :language: English
 :country: United States
 :img_main: images/out_there.main.jpg
-:img_thumb: out_there.thumb.jpg
-:player_type: youtube
+:img_thumb: images/out_there.thumb.jpg
 :player_vid: Jt3XPQFLOF8
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=Jt3XPQFLOF8
 :events: The Barkley Marathons
 :people: Karel Sabbe
-:production: Tangram Films;Karel Sabbe
+:production: Tangram Films, Karel Sabbe
 :direction: Fabien Duflos
 :tags: The Barkley Marathons
 

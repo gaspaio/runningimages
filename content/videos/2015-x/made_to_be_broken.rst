@@ -8,6 +8,7 @@ Karl Meltzer: Made to be Broken
 :duration: 41 min
 :language: English
 :country: United States
+:link_fm: https://www.redbull.com/int-en/films/karl-meltzer-made-to-be-broken
 :events: Appalachian Trail
 :people: Karl Meltzer
 :sponsors: Red Bull

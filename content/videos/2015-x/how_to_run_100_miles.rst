@@ -9,9 +9,9 @@ How To Run 100 Miles
 :language: English
 :country: United States
 :img_main: images/how_to_run_100_miles.main.jpg
-:img_thumb: how_to_run_100_miles.thumb.jpg
-:player_type: youtube
+:img_thumb: images/how_to_run_100_miles.thumb.jpg
 :player_vid: iC7Lh4opLsc
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=iC7Lh4opLsc
 :events: Run Rabbit Run 100
 :sponsors: REI

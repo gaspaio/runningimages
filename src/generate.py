@@ -4,6 +4,7 @@ import logging
 import numpy as np
 import re
 import textwrap
+import json
 from .media import parse_stream_url
 
 from . import *
@@ -35,15 +36,53 @@ def format_duration(tt):
     return ' '.join(out)
 
 
-def player_metas(link):
-    vinfo = parse_stream_url(link, link)
-    if vinfo is None:
-        return {}
-    return {
-        'player_type': vinfo['type'],
-        'player_vid': vinfo['vid'],
-        'player_url': link
-    }
+def media_metas(video):
+    # Generate video links
+    player = None
+    link_vod = None
+    link_fm = None
+
+    free = video['free_access'] if video['free_access'] is not np.NaN else False
+
+    def qualify_stream(link):
+        if link is np.NaN:
+            return {'type': 'no_link'}
+        linfo = parse_stream_url(link, link)
+        if linfo is None:
+            return {'type': 'unsupported'}
+        return linfo
+    link_stream = qualify_stream(video['link_stream'])
+    link_trailer = qualify_stream(video['link_trailer'])
+
+    if not free:
+        # S'il y a un lien de stream, proposer comme VOD
+        if link_stream['type'] != 'no_link':
+            link_vod = video['link_stream']
+        # Si le lien trailer est supporté, le mettre dans le player, sinon on ignore
+        if link_trailer['type'] not in ['no_link', 'unsupported']:
+            player = link_trailer
+    else:
+        # stream supporté => player
+        if link_stream['type'] not in ['no_link', 'unsupported']:
+            player = link_stream
+        # Stream non supporté => lien full movie
+        if link_stream['type'] == 'unsupported':
+            link_fm = video['link_stream']
+        # trailer supporté et rien dans le player => trailer dans le player
+        if link_trailer['type'] not in ['no_link', 'unsupported'] and player is None:
+            player = link_trailer
+
+    out = {}
+    if player is not None:
+        out['player_vid'] = player['vid']
+        out['player_type'] = player['type']
+        out['player_url'] = player['url'].geturl()
+    if link_vod is not None:
+        out['link_vod'] = link_vod
+    if link_fm is not None:
+        out['link_fm'] = link_fm
+
+    return out
 
 
 def video_build_metadata(video, keywords, images):
@@ -60,34 +99,18 @@ def video_build_metadata(video, keywords, images):
     if video['country'] is not np.NaN:
         metas['country'] = video['country']
 
-    free = video['free_access'] if video['free_access'] is not np.NaN else False
-
     if images is not None:
         img_main = images.get('main', None)
         img_thumb = images.get('thumb', None)
         if img_main is not None:
             metas['img_main'] = f'images/{img_main}'
-            metas['img_thumb'] =i f'images/{img_main}'
+            metas['img_thumb'] = f'images/{img_main}'
         if img_thumb is not None:
             metas['img_thumb'] = f'images/{img_thumb}'
             if img_main is None:
                 metas['img_main'] = f'images/{img_thumb}'
 
-    # Generate video links
-    player_link = None
-    if not free:
-        if video['link_stream'] is not np.NaN:
-            metas['link_vod'] = video['link_stream']
-        if video['link_trailer'] is not np.NaN:
-            player_link = video['link_trailer']
-    else:
-        if video['link_stream'] is not np.NaN:
-            player_link = video['link_stream']
-        elif video['link_trailer'] is not np.NaN:
-            player_link = video['link_trailer']
-
-    if player_link:
-        metas.update(player_metas(player_link))
+    metas.update(media_metas(video))
 
     if video['link_official'] is not np.NaN:
         metas['link_official'] = video['link_official']
@@ -135,7 +158,14 @@ def build_site_content(videos, keywords, images):
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with open(filepath, 'w') as f:
             f.write(content)
-        print(f'Wrote:   {filepath}')
+    print(f'Wrote {len(videos)} video files')
+
+    kwd_items = {}
+    for kwdtype, kwds in keywords.items():
+        kwd_items[kwdtype] = [name for name, info in kwds.items() if info['is_tag']]
+
+    with open(os.path.join(BASEDIR, 'sitemeta.json'), 'w') as f:
+        json.dump({ 'tags': kwd_items }, f, indent=2)
 
     return
 

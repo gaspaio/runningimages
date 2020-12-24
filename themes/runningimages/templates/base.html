@@ -46,19 +46,20 @@
         </div>
         <div class="navbar-menu is-active">
             <div class="navbar-end">
-                <a class="navbar-item{% if page_name == 'videos' %} active{% endif %}" href="{{ SITEURL }}/videos.html">All Videos</a>
-
-                {% set category_menu_items = ['2015-x', '2010-2014','2005-2009', '2000-2004', 'x-1999'] %}
                 <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link{% if page_name == 'years' %} active{% endif %}" href="{{ SITEURL }}/years.html">By Year</a>
+                        <a class="navbar-link{% if page_name == 'years' %} is-active{% endif %}" href="{{ SITEURL }}/videos.html">Videos</a>
                     <div class="navbar-dropdown">
-                        {% for cat in category_menu_items %}
-                        <a href="{{ SITEURL }}/years/{{ cat }}.html" class="navbar-item{% if page_name == 'years/' + cat %} active{% endif %}">{{ cat }}</a>
+                        <div class="dropdown-item">
+                            <p><strong>By release date</strong></p>
+                        </div>
+                        <hr class="dropdown-divider">
+                        {% for slug in THEME_CATEGORIES_ORDERED %}
+                        <a href="{{ SITEURL }}/years/{{ slug }}.html" class="navbar-item{% if page_name == 'years/' + slug %} is-active{% endif %}">{{ THEME_CATEGORIES[slug]['title'] }}</a>
                         {% endfor %}
                     </div>
                 </div>
-                <a class="navbar-item{% if page_name == 'tags' %} active{% endif %}" href="{{ SITEURL }}/tags.html">Tags</a>
-                <a class="navbar-item" href="{{ SITEURL }}/about.html">About this website | {{page_name}}</a>
+                <a class="navbar-item{% if page_name == 'tags' %} is-active{% endif %}" href="{{ SITEURL }}/tags.html">Tags</a>
+                <a class="navbar-item" href="{{ SITEURL }}/about.html">About this website</a>
             </div>
         </div>
       </div>

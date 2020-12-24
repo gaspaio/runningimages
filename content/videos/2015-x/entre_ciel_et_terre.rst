@@ -9,14 +9,14 @@ Entre terre et ciel
 :language: French
 :country: France
 :img_main: images/entre_ciel_et_terre.main.jpg
-:img_thumb: entre_ciel_et_terre.thumb.jpg
-:player_type: youtube
+:img_thumb: images/entre_ciel_et_terre.thumb.jpg
 :player_vid: K9Z2P59oqGs
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=K9Z2P59oqGs
 :events: La Diagonale des Fous
 :people: François d'Haene
 :production: Canal+
 :direction: Vincent Alix
-:tags: La Diagonale des Fous;François d'Haene
+:tags: La Diagonale des Fous, François d'Haene
 
 French TV documentary on François d'Haene doing the 2018 Diagonale des fous.

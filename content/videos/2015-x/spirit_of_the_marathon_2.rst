@@ -8,9 +8,9 @@ Spirit of the Marathon II
 :duration: 1h 41 min
 :language: English
 :img_main: images/spirit_of_the_marathon_2.main.jpg
-:img_thumb: spirit_of_the_marathon_2.thumb.jpg
-:player_type: youtube
+:img_thumb: images/spirit_of_the_marathon_2.thumb.jpg
 :player_vid: lYDiAnNlHPQ
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=lYDiAnNlHPQ
 :link_official: https://vimeo.com/ondemand/spiritofthemarthonii
 :production: FilmWorks Entertainment

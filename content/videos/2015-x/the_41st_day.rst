@@ -9,9 +9,9 @@ The 41st Day
 :language: English
 :country: United States
 :img_main: images/the_41st_day.main.jpg
-:img_thumb: the_41st_day.thumb.jpg
-:player_type: youtube
+:img_thumb: images/the_41st_day.thumb.jpg
 :player_vid: 2wE4L4IlOFo
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=2wE4L4IlOFo
 :link_official: https://ryanhallfilm.com/
 :people: Ryan Hall

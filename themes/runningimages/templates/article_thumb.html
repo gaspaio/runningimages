@@ -1,0 +1,22 @@
+<article class="media film-item">
+    <figure class="media-left">
+        <p class="image is-128x128">
+            {% if article.img_thumb %}
+            <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL }}/{{ article.img_thumb }}"/></a>
+            {% elif article.img_main %}
+            <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL }}/{{ article.img_main }}"/></a>
+            {% endif %}
+        </p>
+    </figure>
+    <div class="media-content">
+        <div class="content">
+            <p>
+                <strong><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title | striptags | truncate(35, leeway=5) }}</a></strong>
+                <small>{% if article.direction %}{{ article.direction }}, {% endif %}{% if article.duration %}{{ article.duration }}, {% endif %}{{ article.release_year }}</small>
+            <br>
+            {{ article.summary | striptags }}
+            </p>
+        </div>
+    </div>
+</article>
+

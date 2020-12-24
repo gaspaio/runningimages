@@ -9,9 +9,9 @@ Running On Empty ft. Rory Bosio
 :language: English
 :country: United States
 :img_main: images/running_on_empty.main.jpg
-:img_thumb: running_on_empty.thumb.jpg
-:player_type: youtube
+:img_thumb: images/running_on_empty.thumb.jpg
 :player_vid: TgyOQK9gX8E
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=TgyOQK9gX8E
 :events: GR 20
 :people: Rosy Bosio

@@ -9,9 +9,9 @@ Finding The Limit. Big Backyard
 :language: English
 :country: United States
 :img_main: images/finding_the_limit.main.jpg
-:img_thumb: finding_the_limit.thumb.jpg
-:player_type: youtube
+:img_thumb: images/finding_the_limit.thumb.jpg
 :player_vid: djjWsQy9RgQ
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=djjWsQy9RgQ
 :events: Backyard Ultra
 :production: Trailbearfilms

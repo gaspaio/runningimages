@@ -9,16 +9,16 @@ Life in a day
 :language: English
 :country: United States
 :img_main: images/life_in_a_day.main.jpg
-:img_thumb: life_in_a_day.thumb.jpg
-:player_type: youtube
+:img_thumb: images/life_in_a_day.thumb.jpg
 :player_vid: kYgcTJBLwsU
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=kYgcTJBLwsU
 :events: Western States 100
-:people: Anna Mae Flynn;Devon Yanko;Kaci Lickteig;Magdalena Boulet
+:people: Anna Mae Flynn, Devon Yanko, Kaci Lickteig, Magdalena Boulet
 :sponsors: Hoka One One
 :production: Billy Yang Films
 :direction: Billy Yang
-:tags: Western States 100;Magdalena Boulet;Billy Yang Films;Billy Yang
+:tags: Western States 100, Magdalena Boulet, Billy Yang Films, Billy Yang
 
 On June 25, 2016 a collection of trail and ultra runners toed the line at the historic Western States 100 Mile Endurance Run running from Squaw Valley to Auburn. Among the 350+ were 4 women vying for the win and a coveted top 10 finish which is recognized annually at this prestigious event:
 Magdalena Boulet, a HOKA ONE ONE and GU ENERGY LABS athlete is the returning champion and a mother of one who lives and trains in the East Bay of Northern California. She has an incredible road background including earning a trip to the Olympics in 2008 by placing 2nd at the Olympic Trials. (https://www.magdaboulet.com/ | @RunBoulet) 

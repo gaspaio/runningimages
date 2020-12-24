@@ -9,9 +9,9 @@ STRINGBEAN - Appalachian Trail FKT Documentary
 :language: English
 :country: United States
 :img_main: images/stringbean.main.jpg
-:img_thumb: stringbean.thumb.jpg
-:player_type: youtube
+:img_thumb: images/stringbean.thumb.jpg
 :player_vid: fCy7ASKYLto
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=fCy7ASKYLto
 :events: Appalachian Trail
 :people: Joe McConaughy

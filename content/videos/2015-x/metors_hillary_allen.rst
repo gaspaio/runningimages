@@ -9,9 +9,9 @@ Mentors: Hillary Allen
 :language: English
 :country: United States
 :img_main: images/metors_hillary_allen.main.jpg
-:img_thumb: metors_hillary_allen.thumb.jpg
-:player_type: youtube
+:img_thumb: images/metors_hillary_allen.thumb.jpg
 :player_vid: YFiwrl0KcvU
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=YFiwrl0KcvU
 :people: Hillary Allen
 :sponsors: The North Face

@@ -9,9 +9,9 @@ Running For Freedom: My Journey as an Ultra Marathon Runner
 :language: English
 :country: United States
 :img_main: images/running_for_freedom.main.jpg
-:img_thumb: running_for_freedom.thumb.jpg
-:player_type: youtube
+:img_thumb: images/running_for_freedom.thumb.jpg
 :player_vid: XhIdO3U3wsg
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=XhIdO3U3wsg
 :events: Badwater 135
 :production: Flowerman Productions

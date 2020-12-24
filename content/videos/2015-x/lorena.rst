@@ -9,9 +9,9 @@ Lorena, Light-Footed Woman
 :language: English
 :country: United States
 :img_main: images/lorena.main.jpg
-:img_thumb: lorena.thumb.jpg
-:player_type: youtube
+:img_thumb: images/lorena.thumb.jpg
 :player_vid: zBMra4fJE3E
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=zBMra4fJE3E
 :link_official: https://www.netflix.com/fr-en/title/80244683
 :people: Tarahumara

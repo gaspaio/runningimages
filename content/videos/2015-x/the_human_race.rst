@@ -9,12 +9,12 @@ The Human Race
 :language: English
 :country: United States
 :img_main: images/the_human_race.main.jpg
-:img_thumb: the_human_race.thumb.jpg
-:player_type: youtube
+:img_thumb: images/the_human_race.thumb.jpg
 :player_vid: nHdDYATss5Y
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=nHdDYATss5Y
 :link_official: https://www.the-human-race.net/
-:people: Debbie Voiles;Kathrine Switzer;Jose Collazos
+:people: Debbie Voiles, Kathrine Switzer, Jose Collazos
 :production: Dos Burts Productions
 :direction: Liz Vassey
 :tags: Kathrine Switzer

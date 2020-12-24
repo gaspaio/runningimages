@@ -9,9 +9,9 @@ Run for your life
 :language: English
 :country: United States
 :img_main: images/run_for_your_life.main.jpg
-:img_thumb: run_for_your_life.thumb.jpg
-:player_type: youtube
+:img_thumb: images/run_for_your_life.thumb.jpg
 :player_vid: CMK7e7uP-TY
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=CMK7e7uP-TY
 :people: Fred Lebow
 :direction: Judd Ehrilich

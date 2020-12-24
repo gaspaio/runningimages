@@ -9,9 +9,9 @@ Running on the Sun
 :language: English
 :country: United States
 :img_main: images/running_on_the_sun.main.jpg
-:img_thumb: running_on_the_sun.thumb.jpg
-:player_type: youtube
+:img_thumb: images/running_on_the_sun.thumb.jpg
 :player_vid: dl3laLhbCsw
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=dl3laLhbCsw
 :events: Badwater 135
 :production: Rhino Home Video

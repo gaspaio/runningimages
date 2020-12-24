@@ -9,9 +9,9 @@ Brice, un vacher à l’assaut des Pyrénées
 :language: French
 :country: France
 :img_main: images/brice_un_vacher_a_l_assaut_des_pyrenees.main.jpg
-:img_thumb: brice_un_vacher_a_l_assaut_des_pyrenees.thumb.jpg
-:player_type: youtube
+:img_thumb: images/brice_un_vacher_a_l_assaut_des_pyrenees.thumb.jpg
 :player_vid: SuEXaXScIP4
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=SuEXaXScIP4
 :link_official: https://www.pyrenicimes.fr/brice-le-vacher
 :direction: Sandrine Mörch

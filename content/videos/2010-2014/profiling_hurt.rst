@@ -9,9 +9,9 @@ Profiling HURT
 :language: English
 :country: United States
 :img_main: images/profiling_hurt.main.jpg
-:img_thumb: profiling_hurt.thumb.jpg
-:player_type: youtube
+:img_thumb: images/profiling_hurt.thumb.jpg
 :player_vid: BgO25PcBxSU
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=BgO25PcBxSU
 :events: HURT 100
 :production: Barry Walton

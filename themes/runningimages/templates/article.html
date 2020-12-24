@@ -16,9 +16,15 @@
 
 {% block content %}
 <section id="video-main-player" class="section">
-    {% if article.player_type == 'youtube' %}
-    <div class="video-container video-container-youtube">
+    {% if article.player_type %}
+    <div class="video-container video-container-{{ article.player_type }}">
+        {% if article.player_type == 'youtube' %}
         <iframe src="https://www.youtube.com/embed/{{ article.player_vid }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% elif article.player_type == 'dailymotion' %}
+        <iframe frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/{{ article.player_vid }}" width="100%" height="100%" allowfullscreen > </iframe>
+        {% elif article.player_type == 'vimeo' %}
+        <iframe src="https://player.vimeo.com/video/{{ article.player_vid }}?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        {% endif %}
     </div>
     {% else %}
     <div class="no-video-container">
@@ -90,13 +96,16 @@
                 <p>{{ article.content }}</p>
             </div>
 
-            {% if article.link_official or article.link_vod %}
+            {% if article.link_official or article.link_vod or article.link_fm %}
             <div class="block">
-                {% if article.link_official %}
-                <p><strong>Official Website :</strong> <a href="{{ article.link_official }}">{{ article.link_official }}</a></p>
+                {% if article.link_fm %}
+                <p><strong>Watch full movie :</strong> <a href="{{ article.link_fm }}">{{ article.link_fm }}</a></p>
                 {% endif %}
                 {% if article.link_vod %}
                 <p><strong>Video-On-Demand :</strong> <a href="{{ article.link_vod }}">{{ article.link_vod }}</a></p>
+                {% endif %}
+                {% if article.link_official %}
+                <p><strong>Official Website :</strong> <a href="{{ article.link_official }}">{{ article.link_official }}</a></p>
                 {% endif %}
             </div>
             {% endif %}

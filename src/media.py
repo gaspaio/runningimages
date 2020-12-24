@@ -31,16 +31,21 @@ def parse_stream_url(video_id, ss):
     out = None
     try:
         url = urlparse.urlparse(ss)
+        out = {}
         if 'youtube' in url.netloc:
-            out = {}
             out['type'] = 'youtube'
             out['vid'] = urlparse.parse_qs(url.query)['v'][0]
             out['url'] = url
         elif 'vimeo' in url.netloc:
-            out = {}
             out['type'] = 'vimeo'
             out['vid'] = re.match(r'.*vimeo\.com\/([0-9]+)$', f'{url.netloc}{url.path}').groups()[0]
             out['url'] = url
+        elif 'dailymotion' in url.netloc:
+            out['type'] = 'dailymotion'
+            out['vid'] = url.path.split('/')[-1]
+            out['url'] = url
+        else:
+            out = None
     except Exception as err:
         out = None
         #raise RuntimeError(f"Invalid URL {ss} for video id={video_id}")

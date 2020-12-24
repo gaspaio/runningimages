@@ -8,12 +8,12 @@ Gun Runners
 :duration: 1h 29 min
 :language: French
 :img_main: images/gun_runners.main.jpg
-:img_thumb: gun_runners.thumb.jpg
-:player_type: youtube
+:img_thumb: images/gun_runners.thumb.jpg
 :player_vid: bb0PmTEZpP0
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=bb0PmTEZpP0
 :link_official: https://www.anjalinayar.com/home#/gun-runners/
-:people: Robert Matanda;Julius Arile
+:people: Robert Matanda, Julius Arile
 :production: Film Movement
 :direction: Anjali Nayar
 

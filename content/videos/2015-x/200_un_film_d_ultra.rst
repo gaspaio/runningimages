@@ -9,9 +9,9 @@
 :language: French
 :country: France
 :img_main: images/200_un_film_d_ultra.main.jpg
-:img_thumb: 200_un_film_d_ultra.thumb.jpg
-:player_type: youtube
+:img_thumb: images/200_un_film_d_ultra.thumb.jpg
 :player_vid: Nxo-fZwmksk
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=Nxo-fZwmksk
 :people: Yann Goubet
 :direction: Simon Dugué

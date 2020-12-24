@@ -3,10 +3,56 @@
 {% block title %}{{ SITENAME }} - Tags{% endblock %}
 
 {% block content %}
-    <h1>Tags for {{ SITENAME }}</h1>
-    <ul>
-    {% for tag, articles in tags|sort %}
-        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
-    {% endfor %}
-    </ul>
+<section id="tags-content" class="section content">
+    <h1 class="title is-1">All tags</h1>
+    <div class="columns">
+        <div class="column">
+            <p class="subtitle is-2">People</p>
+            <ul>
+                {% for tag, articles in tags|sort %}
+                {% if tag.name in TAG_TYPES['people'] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            <p class="subtitle is-2">Direction</p>
+            <ul>
+                {% for tag, articles in tags|sort %}
+                {% if tag.name in TAG_TYPES['direction'] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="column">
+            <p class="subtitle is-2">Production</p>
+            <ul>
+                {% for tag, articles in tags|sort %}
+                {% if tag.name in TAG_TYPES['production'] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            <p class="subtitle is-2">Events</p>
+            <ul>
+                {% for tag, articles in tags|sort %}
+                {% if tag.name in TAG_TYPES['events'] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            <p class="subtitle is-2">Sponsors</p>
+            <ul>
+                {% for tag, articles in tags|sort %}
+                {% if tag.name in TAG_TYPES['sponsors'] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
 {% endblock %}

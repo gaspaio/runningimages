@@ -9,15 +9,15 @@ UTMB: Nuits Blanches
 :language: English
 :country: France
 :img_main: images/utmb_nuits_blanches.main.jpg
-:img_thumb: utmb_nuits_blanches.thumb.jpg
-:player_type: youtube
+:img_thumb: images/utmb_nuits_blanches.thumb.jpg
 :player_vid: LmoqgYjKTAI
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=LmoqgYjKTAI
 :events: UTMB
 :sponsors: Strava
 :production: Alexis Berg
 :direction: Alexis Berg
-:tags: UTMB;Alexis Berg;Alexis Berg
+:tags: UTMB, Alexis Berg, Alexis Berg
 
 What’s it like to run into the darkness? And not be sure what lies on the other side? 
 

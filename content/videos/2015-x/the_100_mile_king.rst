@@ -9,9 +9,9 @@ The 100 Mile King
 :language: English
 :country: United States
 :img_main: images/the_100_mile_king.main.jpg
-:img_thumb: the_100_mile_king.thumb.jpg
-:player_type: youtube
+:img_thumb: images/the_100_mile_king.thumb.jpg
 :player_vid: Gj6ytiwVY7Y
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=Gj6ytiwVY7Y
 :events: Western States 100
 :production: Make Yourself

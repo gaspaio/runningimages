@@ -9,9 +9,9 @@ Pacing Hardrock
 :language: English
 :country: United States
 :img_main: images/pacing_hardrock.main.jpg
-:img_thumb: pacing_hardrock.thumb.jpg
-:player_type: youtube
+:img_thumb: images/pacing_hardrock.thumb.jpg
 :player_vid: fhymXiHDUB8
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=fhymXiHDUB8
 :events: Hardrock 100
 :people: Jeff Pelletier

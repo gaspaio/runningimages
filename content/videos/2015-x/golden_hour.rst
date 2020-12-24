@@ -9,9 +9,9 @@ Golden hour - The Best Hour in Ultrarunning
 :language: English
 :country: United States
 :img_main: images/golden_hour.main.jpg
-:img_thumb: golden_hour.thumb.jpg
-:player_type: youtube
+:img_thumb: images/golden_hour.thumb.jpg
 :player_vid: JUZG_XHUenY
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=JUZG_XHUenY
 :events: Western States 100
 :production: Austin Meyer Films

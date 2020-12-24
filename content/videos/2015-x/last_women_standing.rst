@@ -9,15 +9,15 @@ Last Women Standing
 :language: English
 :country: United States
 :img_main: images/last_women_standing.main.jpg
-:img_thumb: last_women_standing.thumb.jpg
-:player_type: youtube
+:img_thumb: images/last_women_standing.thumb.jpg
 :player_vid: dJAW8STfiko
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=dJAW8STfiko
 :events: The Barkley Marathons
 :people: Nicky Spinks
 :sponsors: Inov-8
 :production: Summit Fever Media
-:direction: Matt Green;Elie Green
-:tags: The Barkley Marathons;Nicky Spinks;Inov-8;Summit Fever Media;Matt Green;Elie Green
+:direction: Matt Green, Elie Green
+:tags: The Barkley Marathons, Nicky Spinks, Inov-8, Summit Fever Media, Matt Green, Elie Green
 
 In 2019, inov-8 ambassador and breast cancer survivor Nicky Spinks attempted to become the first-ever woman to complete The Barkley Marathons - the world's toughest ultra-running race. This film tells the story of Nicky, and her fellow female runners, as they battle treacherous terrain, wild weather and the twisted mind of Barkley Marathons organiser, Lazarus Lake.

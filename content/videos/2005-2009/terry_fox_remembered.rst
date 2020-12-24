@@ -9,9 +9,9 @@ Terry Fox Remembered
 :language: English
 :country: Canada
 :img_main: images/terry_fox_remembered.main.jpg
-:img_thumb: terry_fox_remembered.thumb.jpg
-:player_type: youtube
+:img_thumb: images/terry_fox_remembered.thumb.jpg
 :player_vid: huypfBJpQFo
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=huypfBJpQFo
 :people: Terry Fox
 :production: Pan Productions

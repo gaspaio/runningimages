@@ -8,9 +8,9 @@ Wildcard: The Story of Western States F7
 :duration: 21 min
 :language: English
 :img_main: images/wildcard_story_of_western_states.main.jpg
-:img_thumb: wildcard_story_of_western_states.thumb.jpg
-:player_type: youtube
+:img_thumb: images/wildcard_story_of_western_states.thumb.jpg
 :player_vid: YYGGFT6mV9s
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=YYGGFT6mV9s
 :events: Western States 100
 :production: Floof Not Fast Productions

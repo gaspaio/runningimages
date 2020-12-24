@@ -9,9 +9,9 @@ Paul Tierney: Running The Wainwrights
 :language: English
 :country: United Kingdom
 :img_main: images/running_the_wainwrights.main.jpg
-:img_thumb: running_the_wainwrights.thumb.jpg
-:player_type: youtube
+:img_thumb: images/running_the_wainwrights.thumb.jpg
 :player_vid: laMBEjxlst8
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=laMBEjxlst8
 :people: Paul Tierney
 :sponsors: Inov-8

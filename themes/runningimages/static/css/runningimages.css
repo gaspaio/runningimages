@@ -49,5 +49,13 @@ section#video-main-player {
 	left:0;
 	width:100%;
 	height:100%;
+    overflow: hidden;
 }
 
+
+#tags-content p.subtitle {
+    margin-bottom: 0.5em;
+}
+#tags-content ul {
+    margin-bottom: 2em;
+}

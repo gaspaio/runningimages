@@ -8,9 +8,9 @@ Desert Runners
 :duration: 15 min
 :language: English
 :img_main: images/desert_runners.main.jpg
-:img_thumb: desert_runners.thumb.jpg
-:player_type: youtube
+:img_thumb: images/desert_runners.thumb.jpg
 :player_vid: 5HOc9bzjS8w
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=5HOc9bzjS8w
 :link_official: www.desertrunnersmovie.com
 :direction: Jennifer Steinman

@@ -9,14 +9,14 @@
 :language: English
 :country: United States
 :img_main: images/15_hours_magdalena_boulet.main.jpg
-:img_thumb: 15_hours_magdalena_boulet.thumb.jpg
-:player_type: youtube
+:img_thumb: images/15_hours_magdalena_boulet.thumb.jpg
 :player_vid: 65t6HHk-zec
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=65t6HHk-zec
 :people: Magdalena Boulet
 :production: Billy Yang Films
 :direction: Billy Yang
-:tags: Magdalena Boulet;Billy Yang Films;Billy Yang
+:tags: Magdalena Boulet, Billy Yang Films, Billy Yang
 
 Magdalena Boulet wears many hats (yes, including her signature GU straw hat). In this latest snapshot of a typical day in the life of a remarkable athlete, Magda opens up and shares what it was like to immigrate to the United States as a senior in high school, the virtues and values of hard work and the bittersweet day when she earned her American citizenship as the country was under attack on September 11th. 
 

@@ -9,9 +9,9 @@
 :language: English
 :country: New Zealand
 :img_main: images/52_peaks.main.jpg
-:img_thumb: 52_peaks.thumb.jpg
-:player_type: vimeo
+:img_thumb: images/52_peaks.thumb.jpg
 :player_vid: 110621927
+:player_type: vimeo
 :player_url: https://vimeo.com/110621927
 :production: Matthew Dickinson
 :direction: Matthew Dickinson

@@ -1,26 +1,31 @@
 {% extends "base.html" %}
-{% block content %}
-<section id="content">
-{% block content_title %}
-<h2>All articles</h2>
+
+{% block title %}
+All running videos - {{ SITENAME }}
 {% endblock %}
 
-<ol id="post-list">
-{% for article in articles_page.object_list %}
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-                    <address class="vcard author">By
-                    {% for author in article.authors %}
-                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                    {% endfor %}
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-        </article></li>
-{% endfor %}
-</ol><!-- /#posts-list -->
+{% block content %}
+<section id="index-content" class="section">
+    <h1 class="title">
+        {% block content_title %}All videos{% endblock %}
+    </h1>
+    {% for article in articles_page.object_list %}
+        {% if loop.cycle('odd', 'even') == 'odd' %}
+    <div class="columns is-desktop">
+        <div class="column">
+            {% include 'article_thumb.html' %}
+        </div>
+        {% if loop.last %}
+    </div>
+        {% endif %}
+        {% else %}
+        <div class="column">
+            {% include 'article_thumb.html' %}
+        </div>
+    </div>
+        {% endif %}
+    {% endfor %}
+
 {% if articles_page.has_other_pages() %}
     {% include 'pagination.html' %}
 {% endif %}

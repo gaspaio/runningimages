@@ -9,11 +9,11 @@ Mira
 :language: English
 :country: Hong Kong
 :img_main: images/mira.main.jpg
-:img_thumb: mira.thumb.jpg
-:link_vod: https://vimeo.com/ondemand/mirafrench/176381621
-:player_type: youtube
+:img_thumb: images/mira.thumb.jpg
 :player_vid: 2PkoYwnSoFU
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=2PkoYwnSoFU
+:link_vod: https://vimeo.com/ondemand/mirafrench/176381621
 :sponsors: National Geographic
 :production: lloydbelchervisuals.com
 :direction: Lloyd Belcher

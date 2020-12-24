@@ -1,15 +1,45 @@
 {% if DEFAULT_PAGINATION %}
 {% set first_page = articles_paginator.page(1) %}
 {% set last_page = articles_paginator.page(articles_paginator.num_pages) %}
-<p class="paginator">
-    {% if articles_page.has_previous() %}
-        <a href="{{ SITEURL }}/{{ first_page.url }}">&#8647;</a>
-        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo;</a>
+<nav class="pagination" role="navigation" aria-label="pagination">
+    {% if articles_page.has_previous()  %}
+    <a class="pagination-previous" href="{{ SITEURL }}/{{ articles_previous_page.url }}">Previous</a>
     {% endif %}
-    Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
     {% if articles_page.has_next() %}
-        <a href="{{ SITEURL }}/{{ articles_next_page.url }}">&raquo;</a>
-        <a href="{{ SITEURL }}/{{ last_page.url }}">&#8649;</a>
+    <a class="pagination-next" href="{{ SITEURL }}/{{ articles_next_page.url }}">Next page</a>
     {% endif %}
-</p>
+
+    <ul class="pagination-list">
+
+        {% if articles_page.has_previous() %}
+            {% if articles_previous_page.number != 1 %}
+        <li><a class="pagination-link" aria-label="Goto page 1" href="{{ SITEURL }}/{{ first_page.url }}">1</a></li>
+                {% if articles_previous_page.number == 3 %}
+                {% set articles_page_2 = articles_paginator.page(2) %}
+        <li><a class="pagination-link" aria-label="Goto page 2" href="{{ SITEURL }}/{{ articles_page_2.url }}">2</a></li>
+                {% elif articles_previous_page.number > 3 %}
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                {% endif %}
+            {% endif %}
+        <li><a class="pagination-link" aria-label="Goto page {{ articles_previous_page.number }}" href="{{ SITEURL }}/{{ articles_previous_page.url }}">{{ articles_previous_page.number }}</a></li>
+        {% endif %}
+
+        <li><a class="pagination-link is-current" aria-label="Page {{ articles_page.number }}" href="{{ SITEURL }}/{{ articles_page.url }}">{{ articles_page.number }}</a></li>
+
+        {% if articles_page.has_next() %}
+        <li><a class="pagination-link" aria-label="Goto page {{ articles_next_page.number }}" href="{{ SITEURL }}/{{ articles_next_page.url }}">{{ articles_next_page.number }}</a></li>
+            {% if articles_next_page.number != last_page.number %}
+                {% if last_page.number == articles_next_page.number + 2 %}
+                {% set articles_next_next_page = articles_paginator.page(articles_page.number + 2) %}
+        <li><a class="pagination-link" aria-label="Goto page {{ articles_next_next_page.number }}" href="{{ SITEURL }}/{{ articles_next_next_page.url }}">{{ articles_next_next_page.number }}</a></li>
+                {% elif last_page.number != articles_next_page.number + 1 %}
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                {% endif %}
+        <li><a class="pagination-link" aria-label="Goto page {{ last_page.number }}" href="{{ SITEURL }}/{{ last_page.url }}">{{ last_page.number }}</a></li>
+            {% endif %}
+        {% endif %}
+
+    </ul>
+
+</nav>
 {% endif %}

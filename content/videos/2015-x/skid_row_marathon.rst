@@ -9,9 +9,9 @@ Skid Row Marathon
 :language: English
 :country: United States
 :img_main: images/skid_row_marathon.main.jpg
-:img_thumb: skid_row_marathon.thumb.jpg
-:player_type: vimeo
+:img_thumb: images/skid_row_marathon.thumb.jpg
 :player_vid: 317162644
+:player_type: vimeo
 :player_url: https://vimeo.com/317162644
 :link_official: https://skidrowmarathon.com
 :production: Owls Media

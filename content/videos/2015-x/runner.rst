@@ -8,9 +8,9 @@ Runner
 :duration: 
 :language: English
 :img_main: images/runner.main.jpg
-:img_thumb: runner.thumb.jpg
-:player_type: youtube
+:img_thumb: images/runner.thumb.jpg
 :player_vid: dQR0ievGZUk
+:player_type: youtube
 :player_url: https://www.youtube.com/watch?v=dQR0ievGZUk
 :link_official: https://www.runnerdoc.com/
 :people: Guor Maker
