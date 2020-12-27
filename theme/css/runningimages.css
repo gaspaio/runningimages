@@ -13,12 +13,27 @@ main section.section {
     padding: 2em 1.5em;
 }
 
+section#home-description {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 /* Film item listings */
+
 
 /* Film page*/
 main section #infobox {
     background-color: rgb(245, 245, 245);
 }
+
+main section #infobox .infobox-item {
+    padding: 0.5em 0;
+}
+
+main section #infobox ul { display: inline; list-style: none; margin: 0; padding: 0; }
+main section #infobox ul li { display: inline; }
+main section #infobox ul li:after { content: ","; }
+main section #infobox ul li:last-child:after { content: ""; }
 
 /* Video page*/
 /* Scalling player to the viewport: https://coolestguidesontheplanet.com/videodrome/youtube/ */
@@ -39,12 +54,13 @@ section#video-main-player {
 	left:0;
 	width:100%;
 	height:100%;
+    overflow: hidden;
 }
 
-/*
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
+#tags-content p.subtitle {
+    margin-bottom: 0.5em;
 }
-*/
+#tags-content ul {
+    margin-bottom: 2em;
+}
